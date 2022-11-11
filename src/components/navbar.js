@@ -14,13 +14,13 @@ export default class navbar extends Component {
               <Navbar.Brand href="#home">Abstain From CEX</Navbar.Brand>
               <Nav className="NavLinks">
                 <Nav.Link as={Link} to={"/home"} href="#home">
-                  Home
+                  CEX Ed
                 </Nav.Link>
                 <Nav.Link as={Link} to={"/education"} href="#education">
-                  Education
+                  Safe CEX Alternatives
                 </Nav.Link>
                 <Nav.Link as={Link} to={"/merch"} href="#merch">
-                  Merch
+                  Protection (Merch)
                 </Nav.Link>
               </Nav>
             </Container>
