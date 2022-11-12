@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 // import Header from "./components/header";
 // import History from "./components/history";
 import Footer from "./components/footer";
+import Cexed from "./pages/CEX Ed/cexed";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Header />
       <History /> */}
       <Footer />
+      <Cexed />
     </div>
   );
 }
