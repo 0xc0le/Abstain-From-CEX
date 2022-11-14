@@ -1,11 +1,15 @@
 .header{
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+    color: white;
 }
 
 .footer{
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 .header-text{
@@ -16,4 +20,12 @@
 .footer-text{
     font-size: larger;
     font-family: Lucida Console;
+}
+
+.header-card{
+    background-color: #A6A2A2;
+}
+
+.footer-card{
+    background-color: #A6A2A2;
 }

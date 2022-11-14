@@ -7,7 +7,7 @@ export default class footer extends Component {
     return (
       <div>
         <footer className="footer">
-          <Card>
+          <Card className="footer-card">
             <Card.Body className="footer-text">
               <h2>
                 If we do not learn from history, we are doomed to repeat it.

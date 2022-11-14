@@ -7,7 +7,7 @@ export default class header extends Component {
     return (
       <div>
         <header className="header">
-          <Card>
+          <Card className="header-card">
             <Card.Body className="header-text">
               <h2>
                 Since the dawn of man, centralized intermediaries have lied to,

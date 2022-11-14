@@ -3,26 +3,43 @@ import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./navbar.css";
-import CexEd from "../pages/cexed/cexed.js";
-import Alternatives from "../pages/alternatives/alternatives.js";
-import Merch from "../pages/merch/merch.js";
+// import CexEd from "../pages/cexed/cexed.js";
+// import Alternatives from "../pages/alternatives/alternatives.js";
+// import Merch from "../pages/merch/merch.js";
 
 export default class navbar extends Component {
   render() {
     return (
       <Router>
         <div>
-          <Navbar bg="dark" variant="dark">
+          <Navbar className="nav">
             <Container>
-              <Navbar.Brand href="#home">Abstain From CEX</Navbar.Brand>
+              <Navbar.Brand className="navbar-brand" href="#home">
+                Abstain From CEX
+              </Navbar.Brand>
               <Nav className="NavLinks">
-                <Nav.Link as={Link} to={"/cexed"} href="#cexed">
+                <Nav.Link
+                  as={Link}
+                  to={"/cexed"}
+                  href="#cexed"
+                  className="NavLinks"
+                >
                   CEX Ed
                 </Nav.Link>
-                <Nav.Link as={Link} to={"/alternatives"} href="#alternatives">
+                <Nav.Link
+                  as={Link}
+                  to={"/alternatives"}
+                  href="#alternatives"
+                  className="NavLinks"
+                >
                   Safe CEX Alternatives
                 </Nav.Link>
-                <Nav.Link as={Link} to={"/merch"} href="#merch">
+                <Nav.Link
+                  as={Link}
+                  to={"/merch"}
+                  href="#merch"
+                  className="NavLinks"
+                >
                   Protection (Merch)
                 </Nav.Link>
               </Nav>

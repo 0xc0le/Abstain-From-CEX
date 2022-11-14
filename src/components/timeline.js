@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import "./history.css";
 import "./timeline.css";
 
 export default class timeline extends Component {
@@ -14,7 +13,8 @@ export default class timeline extends Component {
         <VerticalTimeline lineColor="black">
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#847577", color: "#fff" }}
+            textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Mt. Gox</h3>
             <h4 className="date">November 2014</h4>
@@ -42,8 +42,9 @@ export default class timeline extends Component {
             </list>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            className="timeline-element"
+            iconStyle={{ background: "#847577", color: "#fff" }}
+            textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Celcius</h3>
             <h4 className="date">June 2022</h4>
@@ -78,8 +79,9 @@ export default class timeline extends Component {
             </list>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            className="timeline-element"
+            iconStyle={{ background: "#847577", color: "#fff" }}
+            textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Voyager Digital</h3>
             <h4 className="date">June 2022</h4>
@@ -107,8 +109,9 @@ export default class timeline extends Component {
             </list>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            className="timeline-element"
+            iconStyle={{ background: "#847577", color: "#fff" }}
+            textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">FTX</h3>
             <h4 className="date">November 2022</h4>

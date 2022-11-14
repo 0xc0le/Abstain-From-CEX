@@ -1,3 +1,20 @@
 .date{
     font-size: small;
 }
+
+.timeline-element{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.timeline-text-element{
+    background-color: #A6A2A2;
+    color: white;
+}
+
+.list{
+    text-align: left;
+    align-content: left;
+    list-style-position: inside;
+    /* text-indent: -1.4em; */
+  }
