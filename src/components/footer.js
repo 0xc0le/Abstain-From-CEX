@@ -1,12 +1,19 @@
 import React, { Component } from "react";
-import "./footer.css";
+import "./headerfooter.css";
+import Card from "react-bootstrap/Card";
 
 export default class footer extends Component {
   render() {
     return (
       <div>
-        <footer className="app-footer">
-          If we do not learn from history, we are doomed to repeat it
+        <footer className="footer">
+          <Card>
+            <Card.Body className="footer-text">
+              <h2>
+                If we do not learn from history, we are doomed to repeat it.
+              </h2>
+            </Card.Body>
+          </Card>
         </footer>
       </div>
     );

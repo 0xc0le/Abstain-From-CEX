@@ -1,0 +1,19 @@
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-text{
+    font-size: larger;
+    font-family: Lucida Console;
+}
+
+.footer-text{
+    font-size: larger;
+    font-family: Lucida Console;
+}
