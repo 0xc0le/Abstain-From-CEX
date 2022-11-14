@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "./header.css";
 
 export default class header extends Component {
   render() {
     return (
       <div>
-        <header>
+        <header className="header">
           <h1>Self Custody is the future</h1>
           <h2>
             Since the dawn of man, centralized intermediaries have lied to,

@@ -8,9 +8,10 @@ export default class history extends Component {
   render() {
     return (
       <Container>
+        <h1 className="history-header">A quick history lesson</h1>
         <Row className="row">
           <Col>
-            <p>Mt. Gox</p> <p>March 2014</p>
+            <p className="exchange-name">Mt. Gox</p> <p>March 2014</p>
           </Col>
           <Col xs={6}>
             <list className="list">
