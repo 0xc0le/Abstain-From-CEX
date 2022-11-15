@@ -3,13 +3,15 @@
 }
 
 .timeline-element{
-    padding-left: 50px;
-    padding-right: 50px;
+    /* box-sizing: content-box;
+    width: 150%;
+    left: -25%; */
 }
 
 .timeline-text-element{
     background-color: #A6A2A2;
     color: white;
+    border-radius: 25px;
 }
 
 .list{

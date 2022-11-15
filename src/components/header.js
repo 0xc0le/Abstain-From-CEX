@@ -10,7 +10,7 @@ export default class header extends Component {
           <Card className="header-card">
             <Card.Body className="header-text">
               <h2>
-                Since the dawn of man, centralized intermediaries have lied to,
+                Throughout history, centralized intermediaries have lied to,
                 cheated, and stolen from their users.
               </h2>
               <h2>Centralized crypto exchanges are no different.</h2>

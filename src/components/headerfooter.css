@@ -24,8 +24,10 @@
 
 .header-card{
     background-color: #A6A2A2;
+    border-radius: 25px;
 }
 
 .footer-card{
     background-color: #A6A2A2;
+    border-radius: 25px;
 }

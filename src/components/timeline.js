@@ -10,7 +10,7 @@ export default class timeline extends Component {
   render() {
     return (
       <div>
-        <VerticalTimeline lineColor="black">
+        <VerticalTimeline lineColor="#847577">
           <VerticalTimelineElement
             className="timeline-element"
             iconStyle={{ background: "#847577", color: "#fff" }}
@@ -116,7 +116,7 @@ export default class timeline extends Component {
             <h3 className="vertical-timeline-element-title">FTX</h3>
             <h4 className="date">November 2022</h4>
             <list className="list">
-              <li>Rug pull in progress...</li>
+              <li>What happened?</li>
             </list>
           </VerticalTimelineElement>
         </VerticalTimeline>
