@@ -1,14 +1,21 @@
 .header{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-top: 50px;
     color: white;
 }
 
 .footer{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
     padding-bottom: 50px;
+    color: white;
+}
+
+.welcome{
+    padding-left: 650px;
+    padding-right: 650px;
+    padding-top: 50px;
     color: white;
 }
 
@@ -23,11 +30,38 @@
 }
 
 .header-card{
-    background-color: #A6A2A2;
+    background-color: #787777;
     border-radius: 25px;
 }
 
 .footer-card{
-    background-color: #A6A2A2;
+    background-color: #787777;
     border-radius: 25px;
+}
+
+
+
+.welcome-title{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: Lucida Console;
+}
+
+.welcome-subtitle{
+    font-size: large;
+    padding-top: 5%;
+    font-family: Lucida Console;
+}
+
+.welcome-card{
+    background-color: #787777;
+    border-radius: 25px;
+}
+
+.selfcustodyimage{
+    padding-top: 5%;
+
+    max-height: 1500px;
+    max-width: 350px;
+
 }

@@ -3,9 +3,9 @@ import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./navbar.css";
-// import CexEd from "../pages/cexed/cexed.js";
-// import Alternatives from "../pages/alternatives/alternatives.js";
-// import Merch from "../pages/merch/merch.js";
+import CexEd from "../pages/cexed/cexed.js";
+import Alternatives from "../pages/alternatives/alternatives.js";
+import Merch from "../pages/merch/merch.js";
 
 export default class navbar extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class navbar extends Component {
           <Navbar className="nav">
             <Container>
               <Navbar.Brand className="navbar-brand" href="#home">
-                Abstain From CEX
+                ABSTAIN FROM CEX
               </Navbar.Brand>
               <Nav className="NavLinks">
                 <Nav.Link
