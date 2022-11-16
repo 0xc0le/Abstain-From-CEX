@@ -21,12 +21,10 @@
 
 .header-text{
     font-size: larger;
-    font-family: Lucida Console;
 }
 
 .footer-text{
     font-size: larger;
-    font-family: Lucida Console;
 }
 
 .header-card{
@@ -44,13 +42,11 @@
 .welcome-title{
     font-size: xx-large;
     font-weight: 800;
-    font-family: Lucida Console;
 }
 
 .welcome-subtitle{
     font-size: large;
     padding-top: 5%;
-    font-family: Lucida Console;
 }
 
 .welcome-card{
