@@ -1,20 +1,20 @@
 .header{
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: var(--size-edge);
+    padding-right: var(--size-edge);
     padding-top: 50px;
     color: white;
 }
 
 .footer{
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: var(--size-edge);
+    padding-right: var(--size-edge);
     padding-bottom: 50px;
     color: white;
 }
 
 .welcome{
-    padding-left: 650px;
-    padding-right: 650px;
+    padding-left: var(--size-edge);
+    padding-right: var(--size-edge);
     padding-top: 50px;
     color: white;
 }
