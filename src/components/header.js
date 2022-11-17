@@ -15,7 +15,7 @@ export default class header extends Component {
               <div className="header-title">ABSTAIN FROM CEX</div>
               <div className="header-subtitle">
                 ABSTAIN FROM CEX is an educational resource designed to teach
-                people about the dangerous of centralized custodians and the
+                people about the dangers of centralized custodians and the
                 benefits of self-custody
               </div>
             </Col>
