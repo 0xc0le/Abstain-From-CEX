@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./headerfooter.css";
-import Card from "react-bootstrap/Card";
 import selfcustody from "./images/selfcustody.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -21,7 +20,11 @@ export default class header extends Component {
               </div>
             </Col>
             <Col>
-              <img src={selfcustody} className="selfcustodyimage" />
+              <img
+                src={selfcustody}
+                alt="This is a picutre of a safe holding digital coins"
+                className="selfcustodyimage"
+              />
             </Col>
           </Row>
         </Container>
