@@ -13,7 +13,7 @@ export default class timeline extends Component {
         <VerticalTimeline lineColor="#2B2B2B">
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#785A53", color: "#fff" }}
+            iconStyle={{ background: "#46221A", color: "#fff" }}
             textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Mt. Gox</h3>
@@ -45,7 +45,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#785A53", color: "#fff" }}
+            iconStyle={{ background: "#46221A", color: "#fff" }}
             textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Celcius</h3>
@@ -82,7 +82,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#785A53", color: "#fff" }}
+            iconStyle={{ background: "#46221A", color: "#fff" }}
             textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">Voyager Digital</h3>
@@ -112,7 +112,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#785A53", color: "#fff" }}
+            iconStyle={{ background: "#46221A", color: "#fff" }}
             textClassName="timeline-text-element"
           >
             <h3 className="vertical-timeline-element-title">FTX</h3>

@@ -1,8 +1,23 @@
+
+
 .header{
-    padding-left: var(--size-edge);
-    padding-right: var(--size-edge);
-    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #787777;
     color: white;
+}
+
+.header-row{
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-title{
+    font-size: 50px;
+}
+
+.header-subtitle{
+    font-size: 15px;
 }
 
 .footer{
