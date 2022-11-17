@@ -20,39 +20,9 @@
     font-size: 15px;
 }
 
-.footer{
-    padding-left: var(--size-edge);
-    padding-right: var(--size-edge);
-    padding-bottom: 50px;
-    color: white;
+.text-center{
+    background-color: #46221A;
 }
-
-.welcome{
-    padding-left: var(--size-edge);
-    padding-right: var(--size-edge);
-    padding-top: 50px;
-    color: white;
-}
-
-.header-text{
-    font-size: larger;
-}
-
-.footer-text{
-    font-size: larger;
-}
-
-.header-card{
-    background-color: #787777;
-    border-radius: 25px;
-}
-
-.footer-card{
-    background-color: #787777;
-    border-radius: 25px;
-}
-
-
 
 .welcome-title{
     font-size: xx-large;
@@ -62,11 +32,6 @@
 .welcome-subtitle{
     font-size: large;
     padding-top: 5%;
-}
-
-.welcome-card{
-    background-color: #787777;
-    border-radius: 25px;
 }
 
 .selfcustodyimage{
