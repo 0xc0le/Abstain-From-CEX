@@ -25,9 +25,12 @@ export default class header extends Component {
           <div>
             {" "}
             Some CEXs have not disclosed the wallet addresses where they keep
-            customer deposits (looking at you Coinbase) so this number is likely
-            much bigger. This is a scary reality. Take a look below at some of
-            the past trusted custodians of cryptocurrencies.
+            customer deposits (looking at you Coinbase) so the above number is
+            likely much bigger. This is a scary reality. Time and time again,
+            centralized custodians have lied to, cheated, and stolen from their
+            users. Yet, for some reason, people continue to put their trust in
+            these entities. Take a look below at some of the trusted custodians
+            of the past.
           </div>
         </Container>
       </div>
