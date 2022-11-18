@@ -2,31 +2,35 @@
 
 .header{
     padding-bottom: 50px;
-    background-color: #787777;
+    background-color: #1f2833;
     color: white;
 }
 
 .header-row{
     padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: row;
     align-items: center;
 }
 
-.header-title{
-    font-size: 50px;
+.header-columns{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.header-subtitle{
-    font-size: 15px;
+.header-title{
+    font-size: 50px;
+    padding-top: 10px;
 }
 
 .text-center{
-    background-color: #46221A;
+    background-color: #1f2833;
 }
 
 .welcome-title{
     font-size: xx-large;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .welcome-subtitle{
@@ -34,8 +38,25 @@
     padding-top: 5%;
 }
 
-.selfcustodyimage{
-    padding-top: 5%;
-    max-height: 1500px;
-    max-width: 350px;
+.text-uppercase{
+    font-size: 15px;
+}
+
+.text-white{
+    font-size: 12px;
+}
+
+.cex-tvl{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+.cex-tvl-title{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.cex-tvl-subtitle{
+    font-size: 15px;
 }

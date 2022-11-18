@@ -6,6 +6,11 @@ import "./navbar.css";
 // import CexEd from "../pages/cexed/cexed.js";
 // import Alternatives from "../pages/alternatives/alternatives.js";
 // import Merch from "../pages/merch/merch.js";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
 export default class navbar extends Component {
   render() {
