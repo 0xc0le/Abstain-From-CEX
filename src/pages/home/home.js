@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../../components/header";
-import Footer from "../../components/footer";
 import Timeline from "../../components/timeline";
 
 export default class home extends Component {
