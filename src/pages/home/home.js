@@ -10,7 +10,6 @@ export default class home extends Component {
       <div className="App">
         <Header />
         <Timeline />
-        <Footer />
       </div>
     );
   }
