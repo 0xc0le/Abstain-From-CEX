@@ -13,7 +13,7 @@ export default class timeline extends Component {
         <VerticalTimeline lineColor="#2B2B2B">
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "white", color: "#fff" }}
+            iconStyle={{ background: "#0b0c10", color: "#fff" }}
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
@@ -46,7 +46,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "white", color: "#fff" }}
+            iconStyle={{ background: "#0b0c10", color: "#fff" }}
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
@@ -84,7 +84,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "white", color: "#fff" }}
+            iconStyle={{ background: "#0b0c10", color: "#fff" }}
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
@@ -115,7 +115,7 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "white", color: "#fff" }}
+            iconStyle={{ background: "#0b0c10", color: "#fff" }}
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
