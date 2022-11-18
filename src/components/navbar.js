@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import "./navbar.css";
+import Cexed from "../pages/cexed/cexed";
+import Alternatives from "../pages/alternatives/alternatives";
+import Merch from "../pages/merch/merch";
+import Home from "../pages/home/home";
 
 export default class navbar extends Component {
   render() {
@@ -9,7 +13,12 @@ export default class navbar extends Component {
       <Router>
         <div>
           <Navbar className="nav">
-            <Navbar.Brand className="navbar-brand" href="#home">
+            <Navbar.Brand
+              as={Link}
+              to={"/"}
+              className="navbar-brand"
+              href="#home"
+            >
               ABSTAIN FROM CEX
             </Navbar.Brand>
             <Nav className="NavLinks">
@@ -40,6 +49,13 @@ export default class navbar extends Component {
             </Nav>
           </Navbar>
         </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cexed" element={<Cexed />} />
+          <Route path="/alternatives" element={<Alternatives />} />
+          <Route path="/merch" element={<Merch />} />
+          {/* <Route path="*" element={<ErrorPage />} /> */}
+        </Routes>
       </Router>
     );
   }
