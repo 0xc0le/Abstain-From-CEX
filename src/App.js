@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 // import Cexed from "./pages/cexed/cexed.js";
 import Timeline from "./components/timeline";
+import CexStats from "./components/CexStats";
 
 function App() {
   return (

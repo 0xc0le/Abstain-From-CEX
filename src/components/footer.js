@@ -14,7 +14,7 @@ export default function App() {
   return (
     <MDBFooter className="text-center" color="white">
       <MDBContainer className="p-4">
-        <section className="mb-4">
+        {/* <section className="mb-4">
           <MDBBtn
             outline
             color="light"
@@ -80,9 +80,9 @@ export default function App() {
           >
             <MDBIcon fab icon="github" />
           </MDBBtn>
-        </section>
+        </section> */}
 
-        <section className="">
+        {/* <section className="">
           <form action="">
             <MDBRow className="d-flex justify-content-center">
               <MDBCol size="auto">
@@ -107,21 +107,21 @@ export default function App() {
               </MDBCol>
             </MDBRow>
           </form>
-        </section>
+        </section> */}
 
-        <section className="mb-4">
+        {/* <section className="mb-4">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             distinctio earum repellat quaerat voluptatibus placeat nam, commodi
             optio pariatur est quia magnam eum harum corrupti dicta, aliquam
             sequi voluptate quas.
           </p>
-        </section>
+        </section> */}
 
         <section className="">
           <MDBRow>
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">About</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
@@ -137,18 +137,13 @@ export default function App() {
                 <li>
                   <a href="#!" className="text-white">
                     Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Social</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
@@ -164,18 +159,13 @@ export default function App() {
                 <li>
                   <a href="#!" className="text-white">
                     Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Lorem Ipsum</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
@@ -191,18 +181,13 @@ export default function App() {
                 <li>
                   <a href="#!" className="text-white">
                     Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
                   </a>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Other Resources</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
@@ -218,11 +203,6 @@ export default function App() {
                 <li>
                   <a href="#!" className="text-white">
                     Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
                   </a>
                 </li>
               </ul>

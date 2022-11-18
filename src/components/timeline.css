@@ -2,16 +2,11 @@
     font-size: small;
 }
 
-.timeline-element{
-    /* box-sizing: content-box;
-    width: 150%;
-    left: -25%; */
-}
-
 .timeline-text-element{
-    background-color: #787777;
+    background-color: #1f2833;
     color: white;
     border-radius: 25px;
+    box-shadow: none;
 }
 
 .list{
