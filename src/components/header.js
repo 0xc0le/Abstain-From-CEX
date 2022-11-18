@@ -16,7 +16,8 @@ export default class header extends Component {
             </Col>
             <Col className="header-columns">
               <div className="cex-tvl-title">
-                The total estimate value of customer deposits on CEXs:
+                The total estimated value of customer deposits with centralized
+                exchanges:
               </div>
               <CexStats className="cex-tvl" />
             </Col>
@@ -25,7 +26,8 @@ export default class header extends Component {
             {" "}
             Some CEXs have not disclosed the wallet addresses where they keep
             customer deposits (looking at you Coinbase) so this number is likely
-            much bigger. This is a scary reality.
+            much bigger. This is a scary reality. Take a look below at some of
+            the past trusted custodians of cryptocurrencies.
           </div>
         </Container>
       </div>

@@ -15,6 +15,7 @@ export default class timeline extends Component {
             className="timeline-element"
             iconStyle={{ background: "white", color: "#fff" }}
             textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
             <h3 className="vertical-timeline-element-title">Mt. Gox</h3>
             <h4 className="date">November 2014</h4>
@@ -47,6 +48,7 @@ export default class timeline extends Component {
             className="timeline-element"
             iconStyle={{ background: "white", color: "#fff" }}
             textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
             <h3 className="vertical-timeline-element-title">Celcius</h3>
             <h4 className="date">June 2022</h4>
@@ -84,6 +86,7 @@ export default class timeline extends Component {
             className="timeline-element"
             iconStyle={{ background: "white", color: "#fff" }}
             textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
             <h3 className="vertical-timeline-element-title">Voyager Digital</h3>
             <h4 className="date">June 2022</h4>
@@ -114,11 +117,25 @@ export default class timeline extends Component {
             className="timeline-element"
             iconStyle={{ background: "white", color: "#fff" }}
             textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
           >
             <h3 className="vertical-timeline-element-title">FTX</h3>
             <h4 className="date">November 2022</h4>
             <list className="list">
-              <li className="listitem">What happened?</li>
+              <li className="listitem"> 1) What </li>
+              <li className="listitem"> 2) H </li>
+              <li className="listitem"> 3) A </li>
+              <li className="listitem"> 4) P </li>
+              <li className="listitem"> 5) P </li>
+              <li className="listitem"> 6) E </li>
+              <li className="listitem"> 7) N </li>
+              <li className="listitem"> 8) E </li>
+              <li className="listitem"> 9) D </li>
+              <li className="listitem">
+                {" "}
+                10) [NOT LEGAL ADVICE. NOT FINANCIAL ADVICE. THIS IS ALL AS I
+                REMEMBER IT, BUT MY MEMORY MIGHT BE FAULTY IN PARTS.]{" "}
+              </li>
             </list>
           </VerticalTimelineElement>
         </VerticalTimeline>

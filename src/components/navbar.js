@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-// add Routes,Route to above import
 import "./navbar.css";
-// import CexEd from "../pages/cexed/cexed.js";
-// import Alternatives from "../pages/alternatives/alternatives.js";
-// import Merch from "../pages/merch/merch.js";
-// import Button from "react-bootstrap/Button";
-// import Container from "react-bootstrap/Container";
-// import Form from "react-bootstrap/Form";
-// import NavDropdown from "react-bootstrap/NavDropdown";
-// import Offcanvas from "react-bootstrap/Offcanvas";
 
 export default class navbar extends Component {
   render() {
@@ -48,17 +39,6 @@ export default class navbar extends Component {
               </Nav.Link>
             </Nav>
           </Navbar>
-          {/* <Routes>
-            <Route path="/cexed">
-              <CexEd />
-            </Route>
-            <Route path="/alternatives">
-              <Alternatives />
-            </Route>
-            <Route path="/merch">
-              <Merch />
-            </Route>
-          </Routes> */}
         </div>
       </Router>
     );
