@@ -4,7 +4,34 @@
     text-align: left;
 }
 
-.header{
+.cexed-header{
     font-size: medium;
+    padding: 10px;
 }
 
+.page{
+    height: 100vh; 
+}
+
+
+.accordian-body{
+    background-color: #1f2833;
+    color: white;
+}
+
+.accordion-button {
+    background-color: #1f2833 !important;
+    color: white;
+  }
+  
+.accordion-button:focus {
+    box-shadow: none;
+  }
+  
+.accordion-button:not(.collapsed) {
+    color: white;
+  }
+
+.accordion-button::after {
+    color: white;
+}

@@ -2,11 +2,13 @@
   --size-edge: 4em;
 }
 
+html,
 body {
   margin: 0;
   font-family: 'Graduate', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {

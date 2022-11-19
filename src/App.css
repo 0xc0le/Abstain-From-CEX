@@ -2,6 +2,7 @@
   text-align: center;
   /* background-color: #C4C3C2; */
   background-color: #0b0c10;
+  min-height: 100%;
 }
 
 .App-logo {
