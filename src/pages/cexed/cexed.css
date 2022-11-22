@@ -1,37 +1,52 @@
-.accordian{
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: left;
-}
 
 .cexed-header{
     font-size: medium;
     padding: 10px;
-}
-
-.page{
-    height: 100vh; 
-}
-
-
-.accordian-body{
+    padding-bottom: 50px;
     background-color: #1f2833;
     color: white;
 }
 
-.accordion-button {
-    background-color: #1f2833 !important;
+.cexed-page{
+    min-height: 100vh; 
     color: white;
-  }
-  
-.accordion-button:focus {
-    box-shadow: none;
-  }
-  
-.accordion-button:not(.collapsed) {
-    color: white;
-  }
+}
 
-.accordion-button::after {
-    color: white;
+.cexed-header-row{
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cexed-header-columns{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.cexed-header-title{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.cexed-header-subtitle{
+    text-align: left;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.educational-content-section{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.educational-headers{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.educational-content{
+    text-align: left;
 }
