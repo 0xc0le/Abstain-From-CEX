@@ -8,13 +8,17 @@
   color: #FBFBF2;
 }
   
-.navbar{
+.navbar {
   background-color: #1f2833;
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
 }
 
-.navbar-brand{
-  color: #FBFBF2;
+.navbar-brand {
+  color: #9C7506;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { 
+  color: #9C7506;
 }
