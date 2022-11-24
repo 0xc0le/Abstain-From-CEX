@@ -43,7 +43,7 @@ export default class cexed extends Component {
               technology (Bitcoin was created in 2008), cryptography has been
               around for decades. In fact, the earliest known use of
               cryptography is from the year 1900 BC!
-              <br /> <br /> Even Julius Ceaser used cryptography! Ceaser used
+              <br /> <br /> Even Julius Caeser used cryptography! Caeser used
               encryption to send secret messages to his generals on the war
               front. This ensured that only the intended reciever of the message
               could read it and protected secrets from being revealed if the
@@ -105,7 +105,7 @@ export default class cexed extends Component {
               UniSwap, SushiSwap, and Curve.
             </div>
           </Row>
-          <Row>
+          {/* <Row>
             <div className="educational-headers">Lorum Ipsum</div>
             <div className="educational-content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -132,7 +132,7 @@ export default class cexed extends Component {
               purus placerat nec. Donec nec tortor et ante aliquet fringilla eu
               lacinia quam. Phasellus eleifend nunc in pharetra porttitor.
             </div>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );
