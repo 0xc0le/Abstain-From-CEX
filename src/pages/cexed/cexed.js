@@ -105,34 +105,6 @@ export default class cexed extends Component {
               UniSwap, SushiSwap, and Curve.
             </div>
           </Row>
-          {/* <Row>
-            <div className="educational-headers">Lorum Ipsum</div>
-            <div className="educational-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              elementum, purus non lacinia fermentum, metus mauris pulvinar
-              massa, at rhoncus purus purus at orci. Vestibulum eget mi ut nisi
-              fringilla feugiat vel id leo. Suspendisse sagittis lobortis orci a
-              tempor. Maecenas id fringilla diam. Suspendisse non vulputate
-              ipsum. Nulla dignissim justo vitae urna cursus ultricies. Nunc
-              quis bibendum sapien. Phasellus porttitor gravida elit, a mollis
-              purus placerat nec. Donec nec tortor et ante aliquet fringilla eu
-              lacinia quam. Phasellus eleifend nunc in pharetra porttitor.
-            </div>
-          </Row>
-          <Row>
-            <div className="educational-headers">Lorum Ipsum</div>
-            <div className="educational-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              elementum, purus non lacinia fermentum, metus mauris pulvinar
-              massa, at rhoncus purus purus at orci. Vestibulum eget mi ut nisi
-              fringilla feugiat vel id leo. Suspendisse sagittis lobortis orci a
-              tempor. Maecenas id fringilla diam. Suspendisse non vulputate
-              ipsum. Nulla dignissim justo vitae urna cursus ultricies. Nunc
-              quis bibendum sapien. Phasellus porttitor gravida elit, a mollis
-              purus placerat nec. Donec nec tortor et ante aliquet fringilla eu
-              lacinia quam. Phasellus eleifend nunc in pharetra porttitor.
-            </div>
-          </Row> */}
         </Container>
       </div>
     );
