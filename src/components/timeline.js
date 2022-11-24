@@ -10,7 +10,7 @@ export default class timeline extends Component {
   render() {
     return (
       <div>
-        <VerticalTimeline lineColor="#2B2B2B">
+        <VerticalTimeline lineColor="#9C7506">
           <VerticalTimelineElement
             className="timeline-element"
             iconStyle={{ background: "#0b0c10", color: "#fff" }}
@@ -92,8 +92,8 @@ export default class timeline extends Component {
             <h4 className="date">June 2022</h4>
             <list className="list">
               <li className="listitem">
-                On June 17th, hedge fund Three Arrows Capital announced it had
-                suffered heavy losses due to the collapse of the Terra
+                On June 17th, 2022, hedge fund Three Arrows Capital announced it
+                had suffered heavy losses due to the collapse of the Terra
                 ecosystem.
               </li>
               <li className="listitem">
