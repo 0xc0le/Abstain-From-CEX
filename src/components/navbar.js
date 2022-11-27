@@ -6,7 +6,6 @@ import Cexed from "../pages/cexed/cexed";
 import Alternatives from "../pages/alternatives/alternatives";
 import Merch from "../pages/merch/merch";
 import Home from "../pages/home/home";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 
 export default class navbar extends Component {
