@@ -1,5 +1,5 @@
-import React from "react";
-import { formatCurrency } from "../utils/currency";
+import React from 'react';
+import formatCurrency from '../utils/currency';
 
 class CexStats extends React.Component {
   // Constructor
@@ -13,7 +13,7 @@ class CexStats extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://api.llama.fi/protocols")
+    fetch('https://api.llama.fi/protocols')
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -22,22 +22,23 @@ class CexStats extends React.Component {
         });
       });
   }
+
   render() {
     const { DataisLoaded, items } = this.state;
-    if (!DataisLoaded)
+    if (!DataisLoaded) {
       return (
         <div>
-          <h1> Loading.... </h1>{" "}
+          <h1> Loading.... </h1>
+          {' '}
         </div>
       );
+    }
 
-    const cexs = items.filter((item) => item.category === "CEX");
+    const cexs = items.filter((item) => item.category === 'CEX');
 
     const total = cexs
       .map((item) => item.tvl)
-      .reduce((a, b) => {
-        return a + b;
-      }, 0);
+      .reduce((a, b) => a + b, 0);
 
     return (
       <div>

@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import "./headerfooter.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import CexStats from "./CexStats";
+import React, { Component } from 'react';
+import './headerfooter.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import CexStats from './CexStats';
 
 export default class header extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class header extends Component {
             </Col>
           </Row>
           <div>
-            {" "}
+            {' '}
             Some CEXs have not disclosed the wallet addresses where they keep
             customer deposits (looking at you Coinbase) so the above number is
             likely MUCH larger. This is a scary reality. Time and time again,

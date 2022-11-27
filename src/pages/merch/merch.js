@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./merch.css";
+import React, { Component } from 'react';
+import './merch.css';
 
 export default class merch extends Component {
   render() {

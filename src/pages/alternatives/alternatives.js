@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import "./alternatives";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './alternatives.css';
 
 export default class alternatives extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class alternatives extends Component {
                 <div className="cexed-header-title">SAFE CEX ALTERNATIVES</div>
                 <div className="cexed-header-subtitle">Lorum Ipsum</div>
               </Col>
-              <Col></Col>
+              <Col />
             </Row>
           </Container>
         </div>

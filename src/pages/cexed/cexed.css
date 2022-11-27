@@ -24,30 +24,31 @@
 
 }
 
-.cexed-header-title{
+.cexed-header-title {
     font-size: 50px;
     padding-top: 10px;
     text-align: left;
 }
 
-.cexed-header-subtitle{
+.cexed-header-subtitle {
     text-align: left;
     padding-top: 10px;
     line-height: 30px;
 }
 
-.educational-content-section{
+.educational-content-section {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
 }
 
-.educational-headers{
+.educational-headers {
     padding-top: 30px;
     font-size: 25px;
     padding-bottom: 10px;
+    font-weight: 600;
 }
 
-.educational-content{
+.educational-content {
     text-align: left;
 }

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import "./timeline.css";
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import './timeline.css';
 
 export default class timeline extends Component {
   render() {
@@ -13,9 +13,9 @@ export default class timeline extends Component {
         <VerticalTimeline lineColor="#9C7506">
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#0b0c10", color: "#fff" }}
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
             textClassName="timeline-text-element"
-            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">Mt. Gox</h3>
             <h4 className="date">November 2014</h4>
@@ -46,16 +46,17 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#0b0c10", color: "#fff" }}
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
             textClassName="timeline-text-element"
-            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">Celcius</h3>
             <h4 className="date">June 2022</h4>
             <list className="list">
               <li className="listitem">
                 By May of 2022, Celcius had close to $12 billion in assets under
-                management.{" "}
+                management.
+                {' '}
               </li>
               <li className="listitem">
                 Celsius had been using the crypto custodian Prime Trust to store
@@ -63,7 +64,8 @@ export default class timeline extends Component {
                 in June 2021, when Prime Trust's risk team expressed concern
                 about Celsius's strategy of "endlessly re-hypothecating assets
                 ... lending the same assets over and over and over again to
-                juice yields".{" "}
+                juice yields".
+                {' '}
               </li>
               <li className="listitem">
                 On June 11th, 2022, Celcius CEO Alex Mashinsky replied to a user
@@ -84,9 +86,9 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#0b0c10", color: "#fff" }}
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
             textClassName="timeline-text-element"
-            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">Voyager Digital</h3>
             <h4 className="date">June 2022</h4>
@@ -99,7 +101,8 @@ export default class timeline extends Component {
               <li className="listitem">
                 On June 22nd, 2022, Voyager disclosed that it had exposure to
                 Three Arrows Capital to the tune of $370 million worth of BTC
-                and $350 million worth of USDC.{" "}
+                and $350 million worth of USDC.
+                {' '}
               </li>
               <li className="listitem">
                 On July 1st, 2022, Voyager froze all deposits, withdrawals, and
@@ -115,9 +118,9 @@ export default class timeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="timeline-element"
-            iconStyle={{ background: "#0b0c10", color: "#fff" }}
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
             textClassName="timeline-text-element"
-            contentArrowStyle={{ borderRight: "7px solid  #1f2833" }}
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">FTX</h3>
             <h4 className="date">November 2022</h4>
@@ -132,9 +135,10 @@ export default class timeline extends Component {
               <li className="listitem"> 8) E </li>
               <li className="listitem"> 9) D </li>
               <li className="listitem">
-                {" "}
+                {' '}
                 10) [NOT LEGAL ADVICE. NOT FINANCIAL ADVICE. THIS IS ALL AS I
-                REMEMBER IT, BUT MY MEMORY MIGHT BE FAULTY IN PARTS.]{" "}
+                REMEMBER IT, BUT MY MEMORY MIGHT BE FAULTY IN PARTS.]
+                {' '}
               </li>
             </list>
           </VerticalTimelineElement>
