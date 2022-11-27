@@ -22,3 +22,7 @@
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { 
   color: #9C7506;
 }
+
+.navbar .container {
+  margin: 0 !important;
+}
