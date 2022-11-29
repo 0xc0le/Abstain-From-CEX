@@ -1,66 +1,64 @@
-
-
-.header{
-    padding-bottom: 50px;
-    background-color: #1f2833;
-    color: white;
+.header {
+  padding-bottom: 50px;
+  background-color: #1f2833;
+  color: white;
 }
 
-.header-row{
-    padding: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    flex-direction: row;
-    align-items: center;
+.header-row {
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-direction: row;
+  align-items: center;
 }
 
-.header-columns{
-    padding-left: 50px;
-    padding-right: 50px;
+.header-columns {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.header-title{
-    font-size: 50px;
-    padding-top: 10px;
+.header-title {
+  font-size: 50px;
+  padding-top: 10px;
 }
 
-.footer-text{
-    font-size: 18px;
+.footer-text {
+  font-size: 18px;
 }
 
-.text-center{
-    background-color: #1f2833;
+.text-center {
+  background-color: #1f2833;
 }
 
-.welcome-title{
-    font-size: xx-large;
-    font-weight: 500;
+.welcome-title {
+  font-size: xx-large;
+  font-weight: 500;
 }
 
-.welcome-subtitle{
-    font-size: large;
-    padding-top: 5%;
+.welcome-subtitle {
+  font-size: large;
+  padding-top: 5%;
 }
 
-.text-uppercase{
-    font-size: 15px;
+.text-uppercase {
+  font-size: 15px;
 }
 
-.text-white{
-    font-size: 12px;
+.text-white {
+  font-size: 12px;
 }
 
-.cex-tvl{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 50px;
+.cex-tvl {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
 }
 
-.cex-tvl-title{
-    padding-bottom: 5px;
-    font-size: 15px;
+.cex-tvl-title {
+  padding-bottom: 5px;
+  font-size: 15px;
 }
 
-.cex-tvl-subtitle{
-    font-size: 15px;
+.cex-tvl-subtitle {
+  font-size: 15px;
 }

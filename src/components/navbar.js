@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import {
-  BrowserRouter as Router, Link, Routes, Route,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import './navbar.css';
 import Container from 'react-bootstrap/Container';
 import Cexed from '../pages/cexed/cexed';

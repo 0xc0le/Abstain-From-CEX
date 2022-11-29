@@ -5,9 +5,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(5px + 1vmin);
-  color: #FBFBF2;
+  color: #fbfbf2;
 }
-  
+
 .navbar {
   background-color: #1f2833;
   display: flex;
@@ -16,11 +16,12 @@
 }
 
 .navbar-brand {
-  color: #9C7506;
+  color: #9c7506;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { 
-  color: #9C7506;
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #9c7506;
 }
 
 .navbar .container {

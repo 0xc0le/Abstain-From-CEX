@@ -9,11 +9,7 @@ export default function App() {
     <MDBFooter className="text-center" color="white">
       <MDBContainer className="p-4">
         <div className="footer-text">
-          Made with
-          {' '}
-          <FontAwesomeIcon icon={faHeart} color="#9C7506" />
-          {' '}
-          and
+          Made with <FontAwesomeIcon icon={faHeart} color="#9C7506" /> and
           caffiene by 0xc0le.ETH
         </div>
       </MDBContainer>

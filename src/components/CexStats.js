@@ -8,7 +8,7 @@ class CexStats extends React.Component {
 
     this.state = {
       items: [],
-      DataisLoaded: false,
+      DataisLoaded: false
     };
   }
 
@@ -18,7 +18,7 @@ class CexStats extends React.Component {
       .then((json) => {
         this.setState({
           items: json,
-          DataisLoaded: true,
+          DataisLoaded: true
         });
       });
   }
@@ -28,17 +28,14 @@ class CexStats extends React.Component {
     if (!DataisLoaded) {
       return (
         <div>
-          <h1> Loading.... </h1>
-          {' '}
+          <h1> Loading.... </h1>{' '}
         </div>
       );
     }
 
     const cexs = items.filter((item) => item.category === 'CEX');
 
-    const total = cexs
-      .map((item) => item.tvl)
-      .reduce((a, b) => a + b, 0);
+    const total = cexs.map((item) => item.tvl).reduce((a, b) => a + b, 0);
 
     return (
       <div>

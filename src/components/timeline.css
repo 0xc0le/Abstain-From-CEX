@@ -1,33 +1,35 @@
-.date{
-    font-size: small;
+.date {
+  font-size: small;
 }
 
-.timeline-text-element{
-    background-color: #1f2833;
-    color: white;
-    border-radius: 25px;
-    box-shadow: none;
+.timeline-text-element {
+  background-color: #1f2833;
+  color: white;
+  border-radius: 25px;
+  box-shadow: none;
 }
 
-.list{
-    text-align: left;
-    align-content: left;
-    list-style-position: inside;
-  }
+.list {
+  text-align: left;
+  align-content: left;
+  list-style-position: inside;
+}
 
-  .listitem{
-    margin-bottom: 10px;
-    text-indent:-20px; 
-    margin-left:20px;
-  }
+.listitem {
+  margin-bottom: 10px;
+  text-indent: -20px;
+  margin-left: 20px;
+}
 
-  .vertical-timeline-element-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
-    box-shadow: 0 0 0 4px #9C7506, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+.vertical-timeline-element-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgb(0 0 0 / 8%),
+    0 3px 0 4px rgb(0 0 0 / 5%);
+  box-shadow: 0 0 0 4px #9c7506, inset 0 2px 0 rgb(0 0 0 / 8%),
+    0 3px 0 4px rgb(0 0 0 / 5%);
 }

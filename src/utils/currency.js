@@ -1,7 +1,7 @@
 export default function formatCurrency(rawAmount) {
   const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'USD'
   });
 
   return formatter.format(rawAmount);

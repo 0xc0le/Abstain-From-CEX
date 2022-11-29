@@ -43,18 +43,12 @@ export default class cexed extends Component {
               technology (Bitcoin was created in 2008), cryptography has been
               around for decades. In fact, the earliest known use of
               cryptography is from the year 1900 BC!
-              <br />
-              {' '}
-              <br />
-              {' '}
-              Even Julius Caeser used cryptography! Caeser used
+              <br /> <br /> Even Julius Caeser used cryptography! Caeser used
               encryption to send secret messages to his generals on the war
               front. This ensured that only the intended reciever of the message
               could read it and protected secrets from being revealed if the
               message was intercepted.
-              <br />
-              {' '}
-              <br />
+              <br /> <br />
               Cryptography is what makes crypto possible. With wallets, only the
               person who knows the private key of a wallet can move the funds
               associated with that wallet.
@@ -78,9 +72,7 @@ export default class cexed extends Component {
               generally recieve pennies on the dollar after years of bankruptcy
               proceedings. This is why the phrase, "not your keys, not your
               coins" is so popular!
-              <br />
-              {' '}
-              <br />
+              <br /> <br />
               Examples of centralized exchanges include: Coinbase, Gemini,
               Binance, OKX, and Bybit.
             </div>
@@ -109,11 +101,7 @@ export default class cexed extends Component {
               manner. This type of exchange is made possible by smart contracts
               and is permissionless, meaning anyone can trade their assets
               without needing permission from an intermediary.
-              <br />
-              {' '}
-              <br />
-              {' '}
-              Examples of decentralized exchanges include:
+              <br /> <br /> Examples of decentralized exchanges include:
               UniSwap, SushiSwap, and Curve.
             </div>
           </Row>

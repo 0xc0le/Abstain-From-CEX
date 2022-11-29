@@ -1,54 +1,52 @@
-
-.cexed-header{
-    font-size: medium;
-    padding: 10px;
-    padding-bottom: 50px;
-    background-color: #1f2833;
-    color: white;
+.cexed-header {
+  font-size: medium;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: #1f2833;
+  color: white;
 }
 
-.cexed-page{
-    min-height: 100vh; 
-    color: white;
+.cexed-page {
+  min-height: 100vh;
+  color: white;
 }
 
-.cexed-header-row{
-    padding: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.cexed-header-row {
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.cexed-header-columns{
-    padding-left: 50px;
-    padding-right: 50px;
-
+.cexed-header-columns {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .cexed-header-title {
-    font-size: 50px;
-    padding-top: 10px;
-    text-align: left;
+  font-size: 50px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 .cexed-header-subtitle {
-    text-align: left;
-    padding-top: 10px;
-    line-height: 30px;
+  text-align: left;
+  padding-top: 10px;
+  line-height: 30px;
 }
 
 .educational-content-section {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 .educational-headers {
-    padding-top: 30px;
-    font-size: 25px;
-    padding-bottom: 10px;
-    font-weight: 600;
+  padding-top: 30px;
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: 600;
 }
 
 .educational-content {
-    text-align: left;
+  text-align: left;
 }
