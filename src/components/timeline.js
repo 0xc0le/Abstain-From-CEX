@@ -55,7 +55,7 @@ export default class timeline extends Component {
             <list className="list">
               <li className="listitem">
                 By May of 2022, Celcius had close to $12 billion in assets under
-                management.{' '}
+                management.
               </li>
               <li className="listitem">
                 Celsius had been using the crypto custodian Prime Trust to store
@@ -63,7 +63,7 @@ export default class timeline extends Component {
                 in June 2021, when Prime Trust's risk team expressed concern
                 about Celsius's strategy of "endlessly re-hypothecating assets
                 ... lending the same assets over and over and over again to
-                juice yields".{' '}
+                juice yields".
               </li>
               <li className="listitem">
                 On June 11th, 2022, Celcius CEO Alex Mashinsky replied to a user
@@ -99,7 +99,7 @@ export default class timeline extends Component {
               <li className="listitem">
                 On June 22nd, 2022, Voyager disclosed that it had exposure to
                 Three Arrows Capital to the tune of $370 million worth of BTC
-                and $350 million worth of USDC.{' '}
+                and $350 million worth of USDC.
               </li>
               <li className="listitem">
                 On July 1st, 2022, Voyager froze all deposits, withdrawals, and
@@ -122,19 +122,59 @@ export default class timeline extends Component {
             <h3 className="vertical-timeline-element-title">FTX</h3>
             <h4 className="date">November 2022</h4>
             <list className="list">
-              <li className="listitem"> 1) What </li>
-              <li className="listitem"> 2) H </li>
-              <li className="listitem"> 3) A </li>
-              <li className="listitem"> 4) P </li>
-              <li className="listitem"> 5) P </li>
-              <li className="listitem"> 6) E </li>
-              <li className="listitem"> 7) N </li>
-              <li className="listitem"> 8) E </li>
-              <li className="listitem"> 9) D </li>
               <li className="listitem">
-                {' '}
-                10) [NOT LEGAL ADVICE. NOT FINANCIAL ADVICE. THIS IS ALL AS I
-                REMEMBER IT, BUT MY MEMORY MIGHT BE FAULTY IN PARTS.]{' '}
+                On November 2nd, 2022, CoinDesk published a report claiming that
+                the reserves for Alameda Research, a crpyto trading firm owned
+                by Sam Bankman-Fried, were based on FTT, a token created by FTX.
+              </li>
+              <li className="listitem">
+                On November 6th, the CEO of Binance tweeted that he intended to
+                sell Binance's FTT allocation on the open market due to the
+                "recent revelations". The CEO of Alameda Research, Caroline
+                Ellison, responded on twitter, offering to purchase the tokens
+                from Binance at a $22 price point.
+              </li>
+              <li className="listitem">
+                On November 7th, Sam Bankman-Fried tweeted, "FTX is fine. Assets
+                are fine."
+              </li>
+              <li className="listitem">
+                In the 72 hours leading up to November 8th, FTX experienced $6
+                billion worth of withdrawals. On the morning of November 8th,
+                FTX froze withdrawals from the platform.
+              </li>
+              <li className="listitem">
+                Later that day, Binance signed a nonbinding agreement to
+                purchase FTX to help cover the liquidity crunch.
+              </li>
+              <li className="listitem">
+                The very next day, on November 9th, Binance backed out of the
+                deal after reviewing the company's structure and books. That
+                same day, SBF told investors that FTX needed emergency funding
+                to cover an $8 billion hole on the balance sheet.
+              </li>
+              <li className="listitem">
+                On November 11th, 2022, FTX filed for bankruptcy.
+              </li>
+            </list>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="timeline-element"
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
+            textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
+          >
+            <h3 className="vertical-timeline-element-title">BlockFi</h3>
+            <h4 className="date">November 2022</h4>
+            <list className="list">
+              <li className="listitem">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas suscipit odio volutpat iaculis congue. In venenatis
+                fringilla venenatis. Vivamus porta odio luctus est consectetur,
+                id feugiat est facilisis. Nulla nec.
+              </li>
+              <li className="listitem">
+                On November 28th, 2022, BlockFi filed for bankruptcy.
               </li>
             </list>
           </VerticalTimelineElement>

@@ -5,7 +5,7 @@ import './navbar.css';
 import Container from 'react-bootstrap/Container';
 import Cexed from '../pages/cexed/cexed';
 import Alternatives from '../pages/alternatives/alternatives';
-import Merch from '../pages/merch/merch';
+// import Merch from '../pages/merch/merch';
 import Home from '../pages/home/home';
 
 export default class navbar extends Component {
@@ -36,14 +36,14 @@ export default class navbar extends Component {
                 >
                   Safe CEX Alternatives
                 </Nav.Link>
-                <Nav.Link
+                {/* <Nav.Link
                   as={Link}
                   to="/merch"
                   href="#merch"
                   className="NavLinks"
                 >
                   Protection (Merch)
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -52,7 +52,7 @@ export default class navbar extends Component {
           <Route path="/" element={<Home />} />
           <Route path="/cexed" element={<Cexed />} />
           <Route path="/alternatives" element={<Alternatives />} />
-          <Route path="/merch" element={<Merch />} />
+          {/* <Route path="/merch" element={<Merch />} /> */}
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>

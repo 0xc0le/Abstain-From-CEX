@@ -72,9 +72,6 @@ export default class cexed extends Component {
               generally recieve pennies on the dollar after years of bankruptcy
               proceedings. This is why the phrase, "not your keys, not your
               coins" is so popular!
-              <br /> <br />
-              Examples of centralized exchanges include: Coinbase, Gemini,
-              Binance, OKX, and Bybit.
             </div>
           </Row>
           <Row>
@@ -101,8 +98,6 @@ export default class cexed extends Component {
               manner. This type of exchange is made possible by smart contracts
               and is permissionless, meaning anyone can trade their assets
               without needing permission from an intermediary.
-              <br /> <br /> Examples of decentralized exchanges include:
-              UniSwap, SushiSwap, and Curve.
             </div>
           </Row>
         </Container>
