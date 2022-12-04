@@ -15,10 +15,11 @@ export default class alternatives extends Component {
               <Col className="cexed-header-columns">
                 <div className="cexed-header-title">SAFE CEX ALTERNATIVES</div>
                 <div className="cexed-header-subtitle">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                  fringilla venenatis. Vivamus porta odio luctus est
-                  consectetur, id feugiat est facilisis. Nulla nec. <br />
+                  Don't trust a third party with your funds! Explore the
+                  alternatives to CEXs, such as cold storage and decentralized
+                  exchanges, and learn how to keep your private keys secure and
+                  your assets safe.
+                  <br />
                   <br />
                 </div>
               </Col>
@@ -26,19 +27,19 @@ export default class alternatives extends Component {
             </Row>
           </Container>
         </div>
-        <Container>
+        <Container className="alternatives-content-section">
           <div>
             <div className="alternatives-content-title">Hardware Wallets</div>
-            <div>
-              Hardware wallets, or cold storage wallets, are a much better way
-              of custodying assets than storing them on an exchange. A hardware
-              wallet is a cryptocurrency wallet that stores the user's private
-              keys in a secure hardware device. The main principle behind
-              hardware wallets is to provide full isolation between the private
-              keys and your easy-to-hack computer or smartphone. Some common
-              hardware wallets include:
-              <Row className="alternatives-row">
-                <Col>
+            <div className="alternatives-content">
+              Hardware wallets, also known as cold storage wallets, offer a
+              safer way to store your cryptocurrency assets than leaving them on
+              an exchange. These wallets use a physical device, such as a USB
+              drive, to securely store your private keys. This isolates your
+              keys from potentially vulnerable online devices, such as computers
+              or smartphones. Some common hardware wallets include: <br />
+              <br />
+              <list className="alternatives-list">
+                <li>
                   <a
                     href="https://www.ledger.com/"
                     target="_blank"
@@ -47,12 +48,8 @@ export default class alternatives extends Component {
                   >
                     Ledger
                   </a>
-                  <div>
-                    Ledger features two models: the Nano X ($149) and the Nano S
-                    Plus ($79).
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://trezor.io/"
                     target="_blank"
@@ -61,12 +58,8 @@ export default class alternatives extends Component {
                   >
                     Trezor
                   </a>
-                  <div>
-                    Trezor features two models: the Model T ($219) and the Model
-                    One ($69).
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://gridplus.io/"
                     target="_blank"
@@ -75,24 +68,30 @@ export default class alternatives extends Component {
                   >
                     Gridplus
                   </a>
-                  <div>Gridplus features one model: the Lattice1 ($397).</div>
-                </Col>
-              </Row>
+                </li>
+              </list>
+              <br />
+              By using a hardware wallet, you can protect your assets from
+              hacking and other online threats. It is generally considered a
+              best practice to store your private keys offline, using a hardware
+              wallet or another type of cold storage solution.
             </div>
           </div>
+
           <div>
             <div className="alternatives-content-title">Software wallets</div>
-            <div>
-              Software wallets, or hot wallets, are the best way to interact
-              with Web3 and DeFi applications. A software wallet is a
-              cryptocurrency wallet that stores the user's private keys in an
-              application on your computer or phone. These wallets are
-              accompanied by a browser extension that gives users the ability to
-              connect/login to websites with one click and approve/sign
-              transactions within the application. Some common software wallets
-              include:
-              <Row className="alternatives-row">
-                <Col>
+            <div className="alternatives-content">
+              Software wallets, also known as hot wallets, offer a convenient
+              way to store your cryptocurrency assets. Unlike hardware wallets,
+              which use a physical device to store your private keys, software
+              wallets are apps or programs that you can install on your computer
+              or smartphone. These wallets allow you to access your assets from
+              any device with an internet connection, making them more flexible
+              than hardware wallets. Some popular software wallet options
+              include: <br />
+              <br />
+              <list className="alternatives-list">
+                <li>
                   <a
                     href="https://metamask.io/"
                     target="_blank"
@@ -101,14 +100,8 @@ export default class alternatives extends Component {
                   >
                     Metamask
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://rainbow.me/"
                     target="_blank"
@@ -117,14 +110,8 @@ export default class alternatives extends Component {
                   >
                     Rainbow
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://tallyho.org/"
                     target="_blank"
@@ -133,35 +120,34 @@ export default class alternatives extends Component {
                   >
                     Tally
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-              </Row>
+                </li>
+              </list>
+              <br />
+              While software wallets are more convenient than hardware wallets,
+              they are also more vulnerable to online threats, such as hacking
+              and malware. It is generally considered a best practice to use a
+              combination of hot and cold storage solutions for your
+              cryptocurrency assets, with the bulk of your funds stored in a
+              hardware wallet for added security.
             </div>
           </div>
           <div>
             <div className="alternatives-content-title">
               Decentralized Exchanges
             </div>
-            <div>
-              Decentralized Exchanges, or DEXs, are the best alternative to
-              trading on a CEX. Most DEXs utilize the Automated Market Maker
-              ("AMM") model rather than an order book like traditional
-              exchanges. AMMs allow users to deposit tokens into liquidity
-              pools. These liquidity pools are what make trading for other users
-              possible! The liquidity provider receives transaction fees and the
-              trader receives a fast, efficient, and decentralized way to trade
-              their tokens. The exchange rate for tokens in the AMM model relies
-              heavily on arbitrage. This is the idea that if there is a
-              discrepancy between prices in multiple locations, scalpers will
-              trade that discrepancy until the pricing difference no longer
-              exists. Some common DEXs include:
-              <Row className="alternatives-row">
-                <Col>
+            <div className="alternatives-content">
+              A decentralized exchange (DEX) is a platform for trading
+              cryptocurrency assets that does not rely on a central authority.
+              Unlike traditional exchanges, which hold users' funds and execute
+              trades on their behalf, a DEX allows users to trade directly with
+              each other, using smart contracts on a blockchain network. This
+              decentralized approach offers several advantages over centralized
+              exchanges, such as increased security, anonymity, and control over
+              your funds. Some popular decentralized exchange options include:
+              <br />
+              <br />
+              <list className="alternatives-list">
+                <li>
                   <a
                     href="https://app.uniswap.org/#/swap"
                     target="_blank"
@@ -170,14 +156,8 @@ export default class alternatives extends Component {
                   >
                     UniSwap
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://www.sushi.com/swap"
                     target="_blank"
@@ -186,14 +166,8 @@ export default class alternatives extends Component {
                   >
                     SushiSwap
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-                <Col>
+                </li>
+                <li>
                   <a
                     href="https://curve.fi/#/ethereum/swap"
                     target="_blank"
@@ -202,14 +176,18 @@ export default class alternatives extends Component {
                   >
                     Curve
                   </a>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                    fringilla venenatis. Vivamus porta odio luctus est
-                    consectetur, id feugiat est facilisis. Nulla nec.
-                  </div>
-                </Col>
-              </Row>
+                </li>
+              </list>
+              <br />
+              By using a decentralized exchange, you can trade your
+              cryptocurrency assets without having to trust a third party with
+              your funds. Decentralized exchanges can also offer unique
+              features, such as the ability to trade directly from your wallet,
+              or the use of AMMs to set prices and match orders. However, DEXs
+              can also be more complex and less user-friendly than centralized
+              exchanges, so they may not be suitable for all users. It is
+              important to carefully research and compare different DEXs before
+              choosing one to use.
             </div>
           </div>
         </Container>

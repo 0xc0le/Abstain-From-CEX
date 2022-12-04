@@ -14,9 +14,10 @@ export default class cexed extends Component {
               <Col className="cexed-header-columns">
                 <div className="cexed-header-title">CEX ED</div>
                 <div className="cexed-header-subtitle">
-                  Self-custody can seem overwhelming, but by learning a few
-                  basic topics and best practices, you can be well on your way
-                  to becoming independent of centralized intermediaries
+                  Take control of your financial security: learn about the
+                  basics of self custody, and discover the best practices for
+                  protecting your assets from the risks of centralized
+                  intermediaries.
                 </div>
               </Col>
               <Col />
@@ -25,79 +26,70 @@ export default class cexed extends Component {
         </div>
         <Container className="educational-content-section">
           <Row>
-            <div className="educational-headers">What is a Wallet?</div>
+            <div className="educational-headers">CEXs and DEXs</div>
             <div className="educational-content">
-              A wallet is an account on the blockchain. This account is
-              identified by a "public key" and protected by a "private key".
-              These keys act like a username and password for the wallet and are
-              generated using a type of math called cryptography (This is where
-              the name "crypto" comes from).
+              A centralized exchange (CEX) is a platform for buying and selling
+              cryptocurrency that is operated by a central authority. CEXs
+              typically hold users' funds in their own accounts, and use order
+              books to match buyers and sellers. This allows them to offer fast
+              and convenient trading services, but it also means that users must
+              trust the exchange with their funds. <br />
+              <br />
+              In contrast, decentralized exchanges (DEXs) allow users to trade
+              directly with each other, using smart contracts on a blockchain
+              network. This decentralized approach offers increased security and
+              control over your funds, but it can also be more complex and less
+              user-friendly than CEXs.
             </div>
           </Row>
           <Row>
-            <div className="educational-headers">What is Cryptography?</div>
+            <div className="educational-headers">Wallets and Cryptography</div>
             <div className="educational-content">
-              Cryptography is the study of encryption, a method by which
-              information is converted into secret code that hides the
-              information's true meaning. Although crypto is a relatively new
-              technology (Bitcoin was created in 2008), cryptography has been
-              around for decades. In fact, the earliest known use of
-              cryptography is from the year 1900 BC!
-              <br /> <br /> Even Julius Caeser used cryptography! Caeser used
-              encryption to send secret messages to his generals on the war
-              front. This ensured that only the intended reciever of the message
-              could read it and protected secrets from being revealed if the
-              message was intercepted.
-              <br /> <br />
-              Cryptography is what makes crypto possible. With wallets, only the
-              person who knows the private key of a wallet can move the funds
-              associated with that wallet.
+              In order to use a DEX, you need a cryptocurrency wallet. A wallet
+              is a software program that stores your private keys, which are the
+              secret codes that allow you to access your cryptocurrency assets.
+              Your private keys are generated using cryptography, a branch of
+              mathematics that uses complex algorithms to encrypt and secure
+              information. Cryptography is what makes it possible for you to own
+              and control your cryptocurrency, without relying on a central
+              authority. <br />
+              <br />
+              When you use a wallet, you can choose to store your private keys
+              on your internet-connected device, such as a computer or a
+              smartphone, or on an airgapped device, such as a USB drive. If you
+              store your private keys on your phone or computer, this is called
+              "hot" storage, because your keys are accessible and potentially
+              vulnerable to online threats. If you store your private keys on a
+              hardware wallet, this is called "cold" storage, because your keys
+              are isolated and offline, making them less vulnerable to hacking
+              and other online threats.
             </div>
           </Row>
           <Row>
-            <div className="educational-headers">
-              What is a Centralized Exchange?
-            </div>
+            <div className="educational-headers">Self-Custody</div>
             <div className="educational-content">
-              A CEX, or Centralized Exchange, is a type of cryptocurrency
-              exchange that accepts fiat or crypto from a user and facilitates
-              trades on behalf of the user. CEXs have full control of users'
-              funds and have the ability to spend, invest, or lend out those
-              funds without the user's consent. This can be problematic because
-              CEXs may lose customer funds in speculative investments or
-              reckless spending. CEXs could also not have enough funds on hand
-              to cover customer withdrawls. These situations typically all end
-              the same, with the company declaring bankruptcy. When a CEX
-              declares bankruptcy, customers are treated as creditors and
-              generally recieve pennies on the dollar after years of bankruptcy
-              proceedings. This is why the phrase, "not your keys, not your
-              coins" is so popular!
-            </div>
-          </Row>
-          <Row>
-            <div className="educational-headers">What is Self-Custody?</div>
-            <div className="educational-content">
-              Self-custody refers to a user being able to truly own their funds
-              without having to rely on or trust any third-party custodian or
-              intermediary. When a person wants to self-custody their funds,
-              they can do so by creating a wallet and not sharing the private
-              key with anyone. It is important to remember that whoever has
-              access to the private keys for a wallet, can move the funds from
-              that wallet. Because of this, it is EXTREMELY important to follow
-              best practices of key management. If you are interested in
-              learning more about best practices, you can do so here.
-            </div>
-          </Row>
-          <Row>
-            <div className="educational-headers">
-              What is a Decentralized Exchange?
-            </div>
-            <div className="educational-content">
-              A DEX, or decentralized exchange, is a type of cryptocurrency
-              exchange that allows users to trade tokens in a peer-to-peer
-              manner. This type of exchange is made possible by smart contracts
-              and is permissionless, meaning anyone can trade their assets
-              without needing permission from an intermediary.
+              Self custody means taking control of your own cryptocurrency
+              assets, and storing them in a secure and private manner. This can
+              involve using a cold storage wallet, such as a hardware wallet or
+              a paper wallet, to keep your private keys offline and safe from
+              online threats. It can also involve using a decentralized exchange
+              (DEX), which allows you to trade directly with other users,
+              without having to trust a third party with your funds. <br />
+              <br />
+              Self custody offers several benefits over centralized exchanges
+              (CEXs), such as increased security, anonymity, and control over
+              your funds. By choosing self custody, you can protect your assets
+              from the risks of CEXs, such as hacking, theft, and fraud. You can
+              also avoid the limitations and restrictions that CEXs may impose
+              on your access and use of your funds. <br />
+              <br />
+              However, self custody can also be challenging, especially for
+              beginners or less experienced crypto users. Cold storage wallets
+              can be complex to set up and use, and may not be user-friendly.
+              DEXs can also be difficult to use, and may offer fewer features
+              and services than CEXs. In addition, self custody requires a
+              certain level of knowledge and understanding of cryptography,
+              wallets, and blockchain technology.
             </div>
           </Row>
         </Container>
