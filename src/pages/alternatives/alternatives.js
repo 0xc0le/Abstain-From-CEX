@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './alternatives.css';
-// import { BrowserRouter as Link } from 'react-router-dom';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import animationData from '../../components/images/SelfCustodyVid.json';
 
 export default class alternatives extends Component {
   render() {
@@ -23,7 +24,16 @@ export default class alternatives extends Component {
                   <br />
                 </div>
               </Col>
-              <Col />
+              <Col>
+                <Player
+                  autoplay
+                  loop
+                  src={animationData}
+                  style={{ height: '300px', width: '300px' }}
+                >
+                  <Controls buttons={['play', 'repeat', 'frame', 'debug']} />
+                </Player>
+              </Col>
             </Row>
           </Container>
         </div>
@@ -93,16 +103,6 @@ export default class alternatives extends Component {
               <list className="alternatives-list">
                 <li>
                   <a
-                    href="https://metamask.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Metamask
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://rainbow.me/"
                     target="_blank"
                     rel="noreferrer"
@@ -119,6 +119,16 @@ export default class alternatives extends Component {
                     className="alternatives-links"
                   >
                     Tally
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://metamask.io/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="alternatives-links"
+                  >
+                    Metamask
                   </a>
                 </li>
               </list>

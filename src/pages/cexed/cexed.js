@@ -3,6 +3,8 @@ import './cexed.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import animationData from '../../components/images/CexEdVid.json';
 
 export default class cexed extends Component {
   render() {
@@ -20,7 +22,16 @@ export default class cexed extends Component {
                   intermediaries.
                 </div>
               </Col>
-              <Col />
+              <Col>
+                <Player
+                  autoplay
+                  loop
+                  src={animationData}
+                  style={{ height: '300px', width: '300px' }}
+                >
+                  <Controls buttons={['play', 'repeat', 'frame', 'debug']} />
+                </Player>
+              </Col>
             </Row>
           </Container>
         </div>
