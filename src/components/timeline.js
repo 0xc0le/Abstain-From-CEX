@@ -158,26 +158,6 @@ export default class timeline extends Component {
               </li>
             </list>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="timeline-element"
-            iconStyle={{ background: '#0b0c10', color: '#fff' }}
-            textClassName="timeline-text-element"
-            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
-          >
-            <h3 className="vertical-timeline-element-title">BlockFi</h3>
-            <h4 className="date">November 2022</h4>
-            <list className="list">
-              <li className="listitem">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas suscipit odio volutpat iaculis congue. In venenatis
-                fringilla venenatis. Vivamus porta odio luctus est consectetur,
-                id feugiat est facilisis. Nulla nec.
-              </li>
-              <li className="listitem">
-                On November 28th, 2022, BlockFi filed for bankruptcy.
-              </li>
-            </list>
-          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     );
