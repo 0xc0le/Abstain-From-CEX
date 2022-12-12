@@ -42,8 +42,8 @@ export default class alternatives extends Component {
             <div className="alternatives-content-title">Hardware Wallets</div>
             <div className="alternatives-content">
               Hardware wallets, also known as cold storage wallets, offer a
-              safer way to store your cryptocurrency assets than leaving them on
-              an exchange. These wallets use a physical device, such as a USB
+              safer way to store your crypto assets than leaving them on an
+              exchange. These wallets use a physical device, such as a USB
               drive, to securely store your private keys. This isolates your
               keys from potentially vulnerable online devices, such as computers
               or smartphones. Some common hardware wallets include: <br />
@@ -92,13 +92,13 @@ export default class alternatives extends Component {
             <div className="alternatives-content-title">Software wallets</div>
             <div className="alternatives-content">
               Software wallets, also known as hot wallets, offer a convenient
-              way to store your cryptocurrency assets. Unlike hardware wallets,
-              which use a physical device to store your private keys, software
-              wallets are apps or programs that you can install on your computer
-              or smartphone. These wallets allow you to access your assets from
-              any device with an internet connection, making them more flexible
-              than hardware wallets. Some popular software wallet options
-              include: <br />
+              way to store your crypto assets. Unlike hardware wallets, which
+              use a physical device to store your private keys, software wallets
+              are apps or programs that you can install on your computer or
+              smartphone. These wallets allow you to access your assets from any
+              device with an internet connection, making them more flexible than
+              hardware wallets. Some popular software wallet options include:{' '}
+              <br />
               <br />
               <list className="alternatives-list">
                 <li>
@@ -136,9 +136,9 @@ export default class alternatives extends Component {
               While software wallets are more convenient than hardware wallets,
               they are also more vulnerable to online threats, such as hacking
               and malware. It is generally considered a best practice to use a
-              combination of hot and cold storage solutions for your
-              cryptocurrency assets, with the bulk of your funds stored in a
-              hardware wallet for added security.
+              combination of hot and cold storage solutions for your crypto
+              assets, with the bulk of your funds stored in a hardware wallet
+              for added security.
             </div>
           </div>
           <div>
@@ -146,11 +146,11 @@ export default class alternatives extends Component {
               Decentralized Exchanges
             </div>
             <div className="alternatives-content">
-              A decentralized exchange (DEX) is a platform for trading
-              cryptocurrency assets that does not rely on a central authority.
-              Unlike traditional exchanges, which hold users' funds and execute
-              trades on their behalf, a DEX allows users to trade directly with
-              each other, using smart contracts on a blockchain network. This
+              A decentralized exchange (DEX) is a platform for trading crypto
+              assets that does not rely on a central authority. Unlike
+              traditional exchanges, which hold users' funds and execute trades
+              on their behalf, a DEX allows users to trade directly with each
+              other, using smart contracts on a blockchain network. This
               decentralized approach offers several advantages over centralized
               exchanges, such as increased security, anonymity, and control over
               your funds. Some popular decentralized exchange options include:
@@ -189,15 +189,14 @@ export default class alternatives extends Component {
                 </li>
               </list>
               <br />
-              By using a decentralized exchange, you can trade your
-              cryptocurrency assets without having to trust a third party with
-              your funds. Decentralized exchanges can also offer unique
-              features, such as the ability to trade directly from your wallet,
-              or the use of AMMs to set prices and match orders. However, DEXs
-              can also be more complex and less user-friendly than centralized
-              exchanges, so they may not be suitable for all users. It is
-              important to carefully research and compare different DEXs before
-              choosing one to use.
+              By using a decentralized exchange, you can trade your digital
+              assets without having to trust a third party with your funds.
+              Decentralized exchanges offer the ability to trade directly from
+              your wallet and often use AMMs, rather than an order book, to set
+              prices and match orders. However, DEXs can also be more complex
+              and less user-friendly than centralized exchanges, so they may not
+              be suitable for all users. It is important to carefully research
+              and compare different DEXs before choosing one to use.
             </div>
           </div>
         </Container>
