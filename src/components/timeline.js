@@ -156,6 +156,15 @@ export default class timeline extends Component {
               <li className="listitem">
                 On November 11th, 2022, FTX filed for bankruptcy.
               </li>
+              <li className="listitem">
+                Sam Bankman-Fried was arrested in the Bahamas on December 12th,
+                2022 for a list of charges including including conspiracy to
+                commit wire fraud, wire fraud, conspiracy to commit commodities
+                fraud, conspiracy to commit securities fraud, conspiracy to
+                commit money laundering, and conspiracy to defraud the Federal
+                Election Commission and commit campaign finance violations. The
+                SEC is also pursuing seperate charges against SBF.
+              </li>
             </list>
           </VerticalTimelineElement>
         </VerticalTimeline>
