@@ -20,6 +20,16 @@ export default function App() {
             0xc0le.ETH
           </a>
         </div>
+        <div>
+          <a
+            href="https://github.com/0xc0le/Abstain-From-CEX"
+            target="_blank"
+            rel="noreferrer"
+            className="alternatives-links"
+          >
+            Github
+          </a>
+        </div>
       </MDBContainer>
     </MDBFooter>
   );
