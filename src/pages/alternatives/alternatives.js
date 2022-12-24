@@ -194,9 +194,9 @@ export default class alternatives extends Component {
               Decentralized exchanges offer the ability to trade directly from
               your wallet and often use AMMs, rather than an order book, to set
               prices and match orders. However, DEXs can also be more complex
-              and less user-friendly than centralized exchanges, so they may not
-              be suitable for all users. It is important to carefully research
-              and compare different DEXs before choosing one to use.
+              and less user-friendly than centralized exchanges, so it is
+              important to carefully research and compare different DEXs before
+              interacting with one.
             </div>
           </div>
         </Container>
