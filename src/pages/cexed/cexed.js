@@ -114,23 +114,36 @@ export default class cexed extends Component {
               the wallet. You can even import your wallet using that same seed
               phrase to access it on multiple devices, such as a smartphone with
               a wallet mobile app, or a computer with a wallet browser
-              extension. Keeping your recovery phrase safe is of the utmost
+              extension. Keeping your seed phrase safe is of the utmost
               importance. If you lose your seed phrase, you lose access to your
               assets. If someone else gets your seed phrase, they gain access to
               your assets. For most people, simply writing your seed phrase down
               and keeping copies in more than one safe location is a solid
               approach. <br /> <br />
-              Some people even break their seed phrase into 3 or 4 segments and
-              write each segment on seperate pieces of paper. These segments are
-              then stored in different locations so even if one segment is
+              Some people break their seed phrase into 3 or 4 segments and write
+              each segment on seperate pieces of paper. These segments are then
+              stored in different locations so even if one segment is
               compromised, it is nearly impossible to access the wallet without
               the other segments. <br /> <br />
-              Other people choose to store their crypto assets in a multisig
-              (mutli-signature) wallet. A multisig wallet requires signatures
-              from multiple wallet addresses to move the funds in the multisig.
-              This can be beneficial because it ensures that even if one private
-              key or seed phrase is compromised, your digital assets are still
-              secure and in your control.
+              Most importantly:
+              <list>
+                <li>Never share your seed phrase with anyone.</li>
+                <li>Always keep your seed phrase in a secure location.</li>
+                <li>Never keep a copy of your seed phrase on your person.</li>
+                <li>
+                  Consider storing sections of your seed phrase in multiple
+                  secure locations.
+                </li>
+                <li>
+                  Use a different wallet for interacting with smart contracts
+                  than the one you use to store your assets.
+                </li>
+                <li>Do not store assets on a CEX longer than neccesary.</li>
+              </list>{' '}
+              <br />
+              Without a doubt, self-custody can be daunting, but by following
+              these best practices, you can mitigate the risks of being your own
+              bank.
             </div>
           </Row>
         </Container>

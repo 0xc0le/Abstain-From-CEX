@@ -97,7 +97,7 @@ export default class alternatives extends Component {
               are apps or programs that you can install on your computer or
               smartphone. These wallets allow you to access your assets from any
               device with an internet connection, making them more flexible than
-              hardware wallets. Some popular software wallet options include:{' '}
+              hardware wallets. Some popular software wallet options include:
               <br />
               <br />
               <list className="alternatives-list">
