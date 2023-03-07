@@ -50,11 +50,11 @@ export default class timeline extends Component {
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
-            <h3 className="vertical-timeline-element-title">Celcius</h3>
+            <h3 className="vertical-timeline-element-title">Celsius</h3>
             <h4 className="date">June 2022</h4>
             <list className="list">
               <li className="listitem">
-                By May of 2022, Celcius had close to $12 billion in assets under
+                By May of 2022, Celsius had close to $12 billion in assets under
                 management.
               </li>
               <li className="listitem">
@@ -66,17 +66,17 @@ export default class timeline extends Component {
                 juice yields".
               </li>
               <li className="listitem">
-                On June 11th, 2022, Celcius CEO Alex Mashinsky replied to a user
+                On June 11th, 2022, Celsius CEO Alex Mashinsky replied to a user
                 on Twitter stating that the user’s claims of frozen withdrawals
                 were “FUD and misinformation.”
               </li>
               <li className="listitem">
-                Two days later, Celcius announced that it had suspended all
+                Two days later, Celsius announced that it had suspended all
                 withdrawals, swaps, and account transfers due to “extreme market
                 conditions”.
               </li>
               <li className="listitem">
-                On July 14th, 2022, Celcius filed for bankruptcy. In the
+                On July 14th, 2022, Celsius filed for bankruptcy. In the
                 filling, it was discovered that the company had $5.5 billion in
                 liabilities and only $4.31 billion in assets.
               </li>
