@@ -124,7 +124,7 @@ export default class timeline extends Component {
             <list className="list">
               <li className="listitem">
                 On November 2nd, 2022, CoinDesk published a report claiming that
-                the reserves for Alameda Research, a crpyto trading firm owned
+                the reserves for Alameda Research, a crypto trading firm owned
                 by Sam Bankman-Fried, were based on FTT, a token created by FTX.
               </li>
               <li className="listitem">
