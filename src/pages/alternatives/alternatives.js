@@ -164,7 +164,7 @@ export default class alternatives extends Component {
                     rel="noreferrer"
                     className="alternatives-links"
                   >
-                    UniSwap
+                    Uniswap
                   </a>
                 </li>
                 <li>
