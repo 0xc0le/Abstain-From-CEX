@@ -58,7 +58,7 @@ export default class timeline extends Component {
                 passes away while visiting India.
               </li>
               <li className="listitem">
-                On january 14th, 2019, Cotten's wife posted an announcement on
+                On January 14th, 2019, Cotten's wife posted an announcement on
                 the QuadrigaCX website announcing his passing. This same week,
                 customers are unable to withdraw their crypto assets from the
                 exchange.
