@@ -10,7 +10,7 @@ export default function App() {
       <MDBContainer className="p-4">
         <div className="footer-text">
           Made with <FontAwesomeIcon icon={faHeart} color="#9C7506" /> and
-          caffiene by{' '}
+          caffeine by{' '}
           <a
             href="https://twitter.com/0xc0le"
             target="_blank"
