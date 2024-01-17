@@ -94,13 +94,13 @@ export default class cexed extends Component {
               also avoid the limitations and restrictions that CEXs may impose
               on your access and use of your funds. <br />
               <br />
-              However, self custody can also be challenging, especially for
-              beginners or less experienced crypto users. Cold storage wallets
-              can be complex to set up and use, and may not be user-friendly.
-              DEXs can also be difficult to use, and may offer fewer features
-              and services than CEXs. In addition, self custody requires a
-              certain level of knowledge and understanding of cryptography,
-              wallets, and blockchain technology.
+              It is important to note that self custody can also be challenging,
+              especially for beginners or less experienced crypto users. Cold
+              storage wallets can be complex to set up and use, and may not be
+              user-friendly. DEXs can also be difficult to use, and may offer
+              fewer features and services than CEXs. In addition, self custody
+              requires a certain level of knowledge and understanding of
+              cryptography, wallets, and blockchain technology.
             </div>
           </Row>
           <Row>
@@ -110,7 +110,7 @@ export default class cexed extends Component {
               recovery phrase (also referred to as a “seed phrase”), which is a
               string of 12 or 24 simple words. The seed phrase is the master
               password to your wallet. As long as you have your seed phrase,
-              you’ll have access to all of the crypto and NFTs associated with
+              you’ll have access to all of the digital assets associated with
               the wallet. You can even import your wallet using that same seed
               phrase to access it on multiple devices, such as a smartphone with
               a wallet mobile app, or a computer with a wallet browser
@@ -120,20 +120,12 @@ export default class cexed extends Component {
               your assets. For most people, simply writing your seed phrase down
               and keeping copies in more than one safe location is a solid
               approach. <br /> <br />
-              Some people break their seed phrase into 3 or 4 segments and write
-              each segment on seperate pieces of paper. These segments are then
-              stored in different locations so even if one segment is
-              compromised, it is nearly impossible to access the wallet without
-              the other segments. <br /> <br />
               Most importantly:
               <list>
                 <li>Never share your seed phrase with anyone.</li>
                 <li>Always keep your seed phrase in a secure location.</li>
                 <li>Never keep a copy of your seed phrase on your person.</li>
-                <li>
-                  Consider storing sections of your seed phrase in multiple
-                  secure locations.
-                </li>
+
                 <li>
                   Use a different wallet for interacting with smart contracts
                   than the one you use to store your assets.
@@ -142,8 +134,8 @@ export default class cexed extends Component {
               </list>{' '}
               <br />
               Without a doubt, self-custody can be daunting, but by following
-              these best practices, you can mitigate the risks of being your own
-              bank.
+              these best practices, you can take full responsibility over your
+              finances.
             </div>
           </Row>
         </Container>
