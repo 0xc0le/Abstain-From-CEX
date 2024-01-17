@@ -118,7 +118,7 @@ export default class alternatives extends Component {
                     rel="noreferrer"
                     className="alternatives-links"
                   >
-                    Tally
+                    Taho
                   </a>
                 </li>
                 <li>
