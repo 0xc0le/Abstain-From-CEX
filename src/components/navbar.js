@@ -26,7 +26,7 @@ export default class navbar extends Component {
                   href="#cexed"
                   className="NavLinks"
                 >
-                  CEX Ed
+                  CEX ED
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
@@ -34,7 +34,7 @@ export default class navbar extends Component {
                   href="#alternatives"
                   className="NavLinks"
                 >
-                  Safe CEX Alternatives
+                  SAFE CEX ALTERNATIVES
                 </Nav.Link>
                 {/* <Nav.Link
                   as={Link}

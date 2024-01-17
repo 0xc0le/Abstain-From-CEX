@@ -28,7 +28,7 @@ class CexStats extends React.Component {
     if (!DataisLoaded) {
       return (
         <div>
-          <h1> Loading.... </h1>{' '}
+          <h1> Pulling data.... </h1>{' '}
         </div>
       );
     }

@@ -18,7 +18,7 @@ export default class timeline extends Component {
             contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">Mt. Gox</h3>
-            <h4 className="date">November 2014</h4>
+            <h4 className="date">2014</h4>
             <list className="list">
               <li className="listitem">
                 By 2013, just 3 years after launching, Mt. Gox was processing
@@ -50,20 +50,55 @@ export default class timeline extends Component {
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
+            <h3 className="vertical-timeline-element-title">QuadrigaCX</h3>
+            <h4 className="date">January 2019</h4>
+            <list className="list">
+              <li className="listitem">
+                In December of 2018, the CEO of QuadrigaCX, Gerald Cotton,
+                passes away while visiting India.
+              </li>
+              <li className="listitem">
+                On january 14th, 2019, Cotten's wife posted an announcement on
+                the QuadrigaCX website announcing his passing. This same week,
+                customers are unable to withdraw their crypto assets from the
+                exchange.
+              </li>
+              <li className="listitem">
+                On January 31st, 2019, a notice appears on the website
+                announcing that the exchange is bankrupt and that they are not
+                able to locate the private keys for their wallets.
+              </li>
+              <li className="listitem">
+                In 2020, the Ontario Securities Commission reported that Cotten
+                had operated the exchange as a Ponzi Scheme and misappropriated
+                funds to fund his lavish lifestyle. Cotten reportedly personally
+                traded with customer assets, losing approximately $115 million.
+                According to the investigation, Cotten was the sole holder of
+                the private keys associated with the exchange, ensuring that the
+                remaining customer deposits were not recoverable.
+              </li>
+            </list>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="timeline-element"
+            iconStyle={{ background: '#0b0c10', color: '#fff' }}
+            textClassName="timeline-text-element"
+            contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
+          >
             <h3 className="vertical-timeline-element-title">Celcius</h3>
-            <h4 className="date">June 2022</h4>
+            <h4 className="date">July 2022</h4>
             <list className="list">
               <li className="listitem">
                 By May of 2022, Celcius had close to $12 billion in assets under
                 management.
               </li>
               <li className="listitem">
-                Celsius had been using the crypto custodian Prime Trust to store
-                some customer assets since March 2020. This relationship ended
-                in June 2021, when Prime Trust's risk team expressed concern
-                about Celsius's strategy of "endlessly re-hypothecating assets
-                ... lending the same assets over and over and over again to
-                juice yields".
+                Celsius had been using a 3rd party, Prime Trust, to store some
+                customer assets since March 2020. This relationship ended in
+                June 2021, when Prime Trust's risk team expressed concern about
+                Celsius's strategy of "endlessly re-hypothecating assets ...
+                lending the same assets over and over and over again to juice
+                yields".
               </li>
               <li className="listitem">
                 On June 11th, 2022, Celcius CEO Alex Mashinsky replied to a user
@@ -76,8 +111,8 @@ export default class timeline extends Component {
                 conditions”.
               </li>
               <li className="listitem">
-                On July 14th, 2022, Celcius filed for bankruptcy. In the
-                filling, it was discovered that the company had $5.5 billion in
+                On July 14th, 2022, Celcius filed for bankruptcy. In the filing,
+                it was discovered that the company had $5.5 billion in
                 liabilities and only $4.31 billion in assets.
               </li>
             </list>
@@ -89,7 +124,7 @@ export default class timeline extends Component {
             contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
             <h3 className="vertical-timeline-element-title">Voyager Digital</h3>
-            <h4 className="date">June 2022</h4>
+            <h4 className="date">July 2022</h4>
             <list className="list">
               <li className="listitem">
                 On June 17th, 2022, hedge fund Three Arrows Capital announced it
@@ -128,11 +163,11 @@ export default class timeline extends Component {
                 by Sam Bankman-Fried, were based on FTT, a token created by FTX.
               </li>
               <li className="listitem">
-                On November 6th, the CEO of Binance tweeted that he intended to
-                sell Binance's FTT allocation on the open market due to the
-                "recent revelations". The CEO of Alameda Research, Caroline
-                Ellison, responded on twitter, offering to purchase the tokens
-                from Binance at a $22 price point.
+                On November 6th, 2022, the CEO of Binance tweeted that he
+                intended to sell Binance's FTT allocation on the open market due
+                to the "recent revelations". The CEO of Alameda Research,
+                Caroline Ellison, responded on twitter, offering to purchase the
+                tokens from Binance at a $22 price point.
               </li>
               <li className="listitem">
                 On November 7th, Sam Bankman-Fried tweeted, "FTX is fine. Assets
@@ -141,11 +176,9 @@ export default class timeline extends Component {
               <li className="listitem">
                 In the 72 hours leading up to November 8th, FTX experienced $6
                 billion worth of withdrawals. On the morning of November 8th,
-                FTX froze withdrawals from the platform.
-              </li>
-              <li className="listitem">
-                Later that day, Binance signed a nonbinding agreement to
-                purchase FTX to help cover the liquidity crunch.
+                FTX froze withdrawals from the platform. Later that day, Binance
+                signed a nonbinding agreement to purchase FTX to help cover the
+                liquidity crunch.
               </li>
               <li className="listitem">
                 The very next day, on November 9th, Binance backed out of the
@@ -158,12 +191,11 @@ export default class timeline extends Component {
               </li>
               <li className="listitem">
                 Sam Bankman-Fried was arrested in the Bahamas on December 12th,
-                2022 for a list of charges including including conspiracy to
-                commit wire fraud, wire fraud, conspiracy to commit commodities
-                fraud, conspiracy to commit securities fraud, conspiracy to
-                commit money laundering, and conspiracy to defraud the Federal
-                Election Commission and commit campaign finance violations. The
-                SEC is also pursuing seperate charges against SBF.
+                2022 for a long list of fraud-related charges.
+              </li>
+              <li className="listitem">
+                On November 2nd, 2023, SBF was found guilty on 7 criminal fraud
+                counts, facing a maximum of 115 years in prison.
               </li>
             </list>
           </VerticalTimelineElement>

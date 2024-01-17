@@ -16,20 +16,20 @@ export default class header extends Component {
             </Col>
             <Col className="header-columns">
               <div className="cex-tvl-title">
-                The total estimated value of customer deposits with centralized
+                The total estimated value of crypto assets held with centralized
                 exchanges:
               </div>
               <CexStats className="cex-tvl" />
             </Col>
           </Row>
           <div>
-            Some CEXs have not disclosed the wallet addresses where they keep
-            customer deposits (looking at you Coinbase) so the above number is
-            likely MUCH larger. This is a scary reality. Time and time again,
-            centralized custodians have lied to, cheated, and stolen from their
-            users. Yet, for some reason, people continue to put their trust in
-            these entities. Take a look below at some centralized
-            custodians/exchanges of the past.
+            Throughout history, financial intermediaries have lied to, cheated,
+            and stolen from their customers. Yet, for some reason, people
+            continue to put their trust in these entities. Although crypto
+            provides a mechanism for self-custody, beginners continue to make
+            the same mistakes by trusting intermediaries with their assets. Let
+            the below timeline serve as a stark reminder: Not your keys, not
+            your crypto.
           </div>
         </Container>
       </div>
