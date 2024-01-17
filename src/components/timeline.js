@@ -85,8 +85,8 @@ export default class timeline extends Component {
             textClassName="timeline-text-element"
             contentArrowStyle={{ borderRight: '7px solid  #1f2833' }}
           >
-            <h3 className="vertical-timeline-element-title">Celcius</h3>
-            <h4 className="date">June 2022</h4>
+            <h3 className="vertical-timeline-element-title">Celsius</h3>
+            <h4 className="date">July 2022</h4>
             <list className="list">
               <li className="listitem">
                 By May of 2022, Celsius had close to $12 billion in assets under
