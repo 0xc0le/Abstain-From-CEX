@@ -174,7 +174,7 @@ export default class alternatives extends Component {
                     rel="noreferrer"
                     className="alternatives-links"
                   >
-                    SushiSwap
+                    Sushiswap
                   </a>
                 </li>
                 <li>
