@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Link,
+  NavLink,
+  Routes,
+  Route
+} from 'react-router-dom';
 import './navbar.css';
 import Container from 'react-bootstrap/Container';
 import Cexed from '../pages/cexed/cexed';
@@ -12,7 +18,7 @@ export default class navbar extends Component {
   render() {
     return (
       <Router>
-        <Navbar bg="#1f2833" expand="lg" variant="dark">
+        <Navbar expand="lg" variant="dark" className="site-navbar">
           <Container>
             <Navbar.Brand as={Link} to="/" href="#home">
               ABSTAIN FROM CEX
@@ -21,7 +27,7 @@ export default class navbar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
                 <Nav.Link
-                  as={Link}
+                  as={NavLink}
                   to="/cexed"
                   href="#cexed"
                   className="NavLinks"
@@ -29,7 +35,7 @@ export default class navbar extends Component {
                   CEX ED
                 </Nav.Link>
                 <Nav.Link
-                  as={Link}
+                  as={NavLink}
                   to="/alternatives"
                   href="#alternatives"
                   className="NavLinks"

@@ -6,20 +6,40 @@
 
 .header-row {
   padding: 0;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: clamp(4rem, 8vw, 6.5rem);
+  padding-bottom: clamp(2rem, 4vw, 3rem);
   flex-direction: row;
   align-items: center;
 }
 
 .header-columns {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: clamp(1rem, 3.2vw, 3.125rem);
+  padding-right: clamp(1rem, 3.2vw, 3.125rem);
+}
+
+.hero-primary,
+.hero-secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.85rem;
 }
 
 .header-title {
-  font-size: 50px;
+  font-size: clamp(2.2rem, 8vw, 3.8rem);
+  line-height: 1.08;
+  letter-spacing: 0.03em;
+  font-weight: 650;
   padding-top: 10px;
+}
+
+.hero-copy-wrap {
+  margin-top: clamp(0.4rem, 1.8vw, 1.2rem);
+}
+
+.hero-copy {
+  max-width: 68ch;
+  line-height: 1.65;
 }
 
 .footer-text {
@@ -51,13 +71,36 @@
 .cex-tvl {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 50px;
+  font-size: clamp(2.1rem, 5.5vw, 3.15rem);
 }
 
 .cex-tvl-title {
+  max-width: 40ch;
   padding-bottom: 5px;
+  line-height: 1.45;
 }
 
 .cex-tvl-subtitle {
   font-size: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .header-row {
+    padding-top: clamp(3.2rem, 10vw, 4.2rem);
+    padding-bottom: clamp(1.4rem, 5vw, 2rem);
+  }
+
+  .hero-primary,
+  .hero-secondary,
+  .hero-copy-wrap {
+    align-items: flex-start;
+  }
+
+  .hero-secondary {
+    padding-top: 0.25rem;
+  }
+
+  .hero-copy {
+    max-width: 100%;
+  }
 }
