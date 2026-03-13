@@ -7,28 +7,61 @@
   color: white;
 }
 
-.alternatives-content-title {
-  font-size: 25px;
-  padding-bottom: 10px;
-  font-weight: 600;
-}
-
 .alternatives-row {
   padding-bottom: 100px;
   padding-top: 15px;
 }
 
 .alternatives-links {
-  color: #9c7506;
+  color: #c89a1f;
 }
 
 .alternatives-content-section {
   padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  gap: 24px;
 }
 
-.alternatives-content {
-  padding-bottom: 50px;
+.content-card {
+  width: 100%;
+  background: #263241;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+}
+
+.content-card-eyebrow-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.content-card-icon {
+  font-size: 14px;
+}
+
+.content-card-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9ab0c3;
+  font-weight: 600;
+}
+
+.content-card-title {
+  margin: 0 0 14px;
+  font-size: 28px;
+  font-weight: 600;
   text-align: left;
+}
+
+.content-card-body {
+  text-align: left;
+  max-width: 72ch;
+  line-height: 1.75;
 }
 
 .alternatives-list {
