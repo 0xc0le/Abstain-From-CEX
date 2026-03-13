@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import './alternatives.css';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import animationData from '../../components/images/SelfCustodyVid.json';
+import ContentCard from '../../components/ContentCard';
 
 export default class alternatives extends Component {
   render() {
@@ -38,167 +39,171 @@ export default class alternatives extends Component {
           </Container>
         </div>
         <Container className="alternatives-content-section">
-          <div>
-            <div className="alternatives-content-title">Hardware Wallets</div>
-            <div className="alternatives-content">
-              Hardware wallets, also known as cold storage wallets, offer a
-              safer way to store your crypto assets than leaving them on an
-              exchange. These wallets use a physical device, such as a USB
-              drive, to securely store your private keys. This isolates your
-              keys from potentially vulnerable online devices, such as computers
-              or smartphones. Some common hardware wallets include: <br />
-              <br />
-              <list className="alternatives-list">
-                <li>
-                  <a
-                    href="https://www.ledger.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Ledger
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://trezor.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Trezor
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://gridplus.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Gridplus
-                  </a>
-                </li>
-              </list>
-              <br />
-              By using a hardware wallet, you can protect your assets from
-              hacking and other online threats. It is generally considered a
-              best practice to store your private keys offline, using a hardware
-              wallet or another type of cold storage solution.
-            </div>
-          </div>
+          <ContentCard
+            className="content-card alternatives-card"
+            eyebrow="Cold Storage"
+            icon="🧊"
+            title="Hardware Wallets"
+          >
+            Hardware wallets, also known as cold storage wallets, offer a safer
+            way to store your crypto assets than leaving them on an exchange.
+            These wallets use a physical device, such as a USB drive, to
+            securely store your private keys. This isolates your keys from
+            potentially vulnerable online devices, such as computers or
+            smartphones. Some common hardware wallets include: <br />
+            <br />
+            <list className="alternatives-list">
+              <li>
+                <a
+                  href="https://www.ledger.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Ledger
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://trezor.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Trezor
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://gridplus.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Gridplus
+                </a>
+              </li>
+            </list>
+            <br />
+            By using a hardware wallet, you can protect your assets from hacking
+            and other online threats. It is generally considered a best practice
+            to store your private keys offline, using a hardware wallet or
+            another type of cold storage solution.
+          </ContentCard>
 
-          <div>
-            <div className="alternatives-content-title">Software wallets</div>
-            <div className="alternatives-content">
-              Software wallets, also known as hot wallets, offer a convenient
-              way to store your crypto assets. Unlike hardware wallets, which
-              use a physical device to store your private keys, software wallets
-              are apps or programs that you can install on your computer or
-              smartphone. These wallets allow you to access your assets from any
-              device with an internet connection, making them more flexible than
-              hardware wallets. Some popular software wallet options include:
-              <br />
-              <br />
-              <list className="alternatives-list">
-                <li>
-                  <a
-                    href="https://rainbow.me/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Rainbow
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tallyho.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Taho
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://metamask.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Metamask
-                  </a>
-                </li>
-              </list>
-              <br />
-              While software wallets are more convenient than hardware wallets,
-              they are also more vulnerable to online threats, such as hacking
-              and malware. It is generally considered a best practice to use a
-              combination of hot and cold storage solutions for your crypto
-              assets, with the bulk of your funds stored in a hardware wallet
-              for added security.
-            </div>
-          </div>
-          <div>
-            <div className="alternatives-content-title">
-              Decentralized Exchanges
-            </div>
-            <div className="alternatives-content">
-              A decentralized exchange (DEX) is a platform for trading crypto
-              assets that does not rely on a central authority. Unlike
-              traditional exchanges, which hold users' funds and execute trades
-              on their behalf, a DEX allows users to trade directly with each
-              other, using smart contracts on a blockchain network. This
-              decentralized approach offers several advantages over centralized
-              exchanges, such as increased security, anonymity, and control over
-              your funds. Some popular decentralized exchange options include:
-              <br />
-              <br />
-              <list className="alternatives-list">
-                <li>
-                  <a
-                    href="https://app.uniswap.org/#/swap"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Uniswap
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.sushi.com/swap"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Sushiswap
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://curve.fi/#/ethereum/swap"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="alternatives-links"
-                  >
-                    Curve
-                  </a>
-                </li>
-              </list>
-              <br />
-              By using a decentralized exchange, you can trade your digital
-              assets without having to trust a third party with your funds.
-              Decentralized exchanges offer the ability to trade directly from
-              your wallet and often use AMMs, rather than an order book, to set
-              prices and match orders. However, DEXs can also be more complex
-              and less user-friendly than centralized exchanges, so it is
-              important to carefully research and compare different DEXs before
-              interacting with one.
-            </div>
-          </div>
+          <ContentCard
+            className="content-card alternatives-card"
+            eyebrow="Hot Storage"
+            icon="📱"
+            title="Software wallets"
+          >
+            Software wallets, also known as hot wallets, offer a convenient way
+            to store your crypto assets. Unlike hardware wallets, which use a
+            physical device to store your private keys, software wallets are
+            apps or programs that you can install on your computer or
+            smartphone. These wallets allow you to access your assets from any
+            device with an internet connection, making them more flexible than
+            hardware wallets. Some popular software wallet options include:
+            <br />
+            <br />
+            <list className="alternatives-list">
+              <li>
+                <a
+                  href="https://rainbow.me/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Rainbow
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://tallyho.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Taho
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://metamask.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Metamask
+                </a>
+              </li>
+            </list>
+            <br />
+            While software wallets are more convenient than hardware wallets,
+            they are also more vulnerable to online threats, such as hacking and
+            malware. It is generally considered a best practice to use a
+            combination of hot and cold storage solutions for your crypto
+            assets, with the bulk of your funds stored in a hardware wallet for
+            added security.
+          </ContentCard>
+          <ContentCard
+            className="content-card alternatives-card"
+            eyebrow="Trading"
+            icon="🔄"
+            title="Decentralized Exchanges"
+          >
+            A decentralized exchange (DEX) is a platform for trading crypto
+            assets that does not rely on a central authority. Unlike traditional
+            exchanges, which hold users' funds and execute trades on their
+            behalf, a DEX allows users to trade directly with each other, using
+            smart contracts on a blockchain network. This decentralized approach
+            offers several advantages over centralized exchanges, such as
+            increased security, anonymity, and control over your funds. Some
+            popular decentralized exchange options include:
+            <br />
+            <br />
+            <list className="alternatives-list">
+              <li>
+                <a
+                  href="https://app.uniswap.org/#/swap"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Uniswap
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.sushi.com/swap"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Sushiswap
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://curve.fi/#/ethereum/swap"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="alternatives-links"
+                >
+                  Curve
+                </a>
+              </li>
+            </list>
+            <br />
+            By using a decentralized exchange, you can trade your digital assets
+            without having to trust a third party with your funds. Decentralized
+            exchanges offer the ability to trade directly from your wallet and
+            often use AMMs, rather than an order book, to set prices and match
+            orders. However, DEXs can also be more complex and less
+            user-friendly than centralized exchanges, so it is important to
+            carefully research and compare different DEXs before interacting
+            with one.
+          </ContentCard>
         </Container>
         <br />
       </div>
