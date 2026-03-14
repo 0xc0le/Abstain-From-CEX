@@ -30,7 +30,9 @@ export default class cexed extends Component {
                   src={animationData}
                   style={{ height: '300px', width: '300px' }}
                 >
-                  <Controls buttons={['play', 'repeat', 'frame', 'debug']} />
+                  {process.env.NODE_ENV === 'development' ? (
+                    <Controls buttons={['play', 'repeat']} />
+                  ) : null}
                 </Player>
               </Col>
             </Row>

@@ -1,5 +1,6 @@
 import React from 'react';
 import formatCurrency from '../utils/currency';
+import './cexstats.css';
 
 class CexStats extends React.Component {
   // Constructor
@@ -27,8 +28,9 @@ class CexStats extends React.Component {
     const { DataisLoaded, items } = this.state;
     if (!DataisLoaded) {
       return (
-        <div>
-          <h1> Pulling data.... </h1>{' '}
+        <div className="cexstats-skeleton" aria-busy="true">
+          <div className="skeleton-number" />
+          <div className="skeleton-line" />
         </div>
       );
     }

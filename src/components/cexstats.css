@@ -1,0 +1,29 @@
+/* Simple skeleton loader for CexStats */
+.cexstats-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.skeleton-number {
+  width: 160px;
+  height: 40px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.skeleton-line {
+  width: 220px;
+  height: 14px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
