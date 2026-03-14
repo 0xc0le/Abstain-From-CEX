@@ -7,31 +7,81 @@
   color: white;
 }
 
-.alternatives-content-title {
-  font-size: 25px;
-  padding-bottom: 10px;
-  font-weight: 600;
-}
-
 .alternatives-row {
   padding-bottom: 100px;
   padding-top: 15px;
 }
 
 .alternatives-links {
-  color: #9c7506;
+  color: #c89a1f;
 }
 
 .alternatives-content-section {
   padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  gap: 24px;
 }
 
-.alternatives-content {
-  padding-bottom: 50px;
-  text-align: left;
+.content-card {
+  width: min(100%, 920px);
+  margin-inline: auto;
+  height: auto;
+  text-align: center;
+  background: #263241;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+}
+
+.content-card-eyebrow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.content-card-icon {
+  font-size: 14px;
+}
+
+.content-card-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9ab0c3;
+  font-weight: 600;
+}
+
+.content-card-title {
+  margin: 0 0 14px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content-card-body {
+  text-align: center;
+  max-width: 65ch;
+  margin-inline: auto;
+  line-height: 1.75;
 }
 
 .alternatives-list {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.content-card-body ul,
+.content-card-body ol {
+  text-align: left;
+  display: table;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+.content-card-body li {
+  text-align: left;
 }
