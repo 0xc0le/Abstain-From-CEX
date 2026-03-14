@@ -45,14 +45,10 @@
 }
 
 .content-card {
-<<<<<<< HEAD
-  width: 100%;
-=======
   width: min(100%, 920px);
   margin-inline: auto;
   height: auto;
   text-align: center;
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
   background: #263241;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 14px;
@@ -63,10 +59,7 @@
 .content-card-eyebrow-row {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-=======
   justify-content: center;
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
   gap: 8px;
   margin-bottom: 10px;
 }
@@ -87,8 +80,6 @@
   margin: 0 0 14px;
   font-size: 28px;
   font-weight: 600;
-<<<<<<< HEAD
-=======
   text-align: center;
 }
 
@@ -108,12 +99,5 @@
 }
 
 .content-card-body li {
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
   text-align: left;
-}
-
-.content-card-body {
-  text-align: left;
-  max-width: 72ch;
-  line-height: 1.75;
 }
