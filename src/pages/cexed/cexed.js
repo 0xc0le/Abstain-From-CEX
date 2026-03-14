@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import animationData from '../../components/images/CexEdVid.json';
+import ContentCard from '../../components/ContentCard';
 
 export default class cexed extends Component {
   render() {
@@ -29,7 +30,9 @@ export default class cexed extends Component {
                   src={animationData}
                   style={{ height: '300px', width: '300px' }}
                 >
-                  <Controls buttons={['play', 'repeat', 'frame', 'debug']} />
+                  {process.env.NODE_ENV === 'development' ? (
+                    <Controls buttons={['play', 'repeat']} />
+                  ) : null}
                 </Player>
               </Col>
             </Row>
@@ -37,8 +40,12 @@ export default class cexed extends Component {
         </div>
         <Container className="educational-content-section">
           <Row>
-            <div className="educational-headers">CEXs and DEXs</div>
-            <div className="educational-content">
+            <ContentCard
+              className="content-card educational-card"
+              eyebrow="Foundation"
+              icon="📚"
+              title="CEXs and DEXs"
+            >
               A centralized exchange (CEX) is a platform for buying and selling
               crypto that is operated by a central authority. CEXs typically
               hold users' funds in their own accounts, and use order books to
@@ -51,11 +58,15 @@ export default class cexed extends Component {
               network. This decentralized approach offers increased security and
               control over your funds, but it also requires a decent
               understanding of how to use a crypto wallet to interact with DeFi.
-            </div>
+            </ContentCard>
           </Row>
           <Row>
-            <div className="educational-headers">Wallets and Cryptography</div>
-            <div className="educational-content">
+            <ContentCard
+              className="content-card educational-card"
+              eyebrow="Core Concepts"
+              icon="🔐"
+              title="Wallets and Cryptography"
+            >
               In order to use a DEX, you need a crypto wallet. A wallet is a
               software program that stores your private keys, which are the
               secret codes that allow you to access your crypto assets. Your
@@ -74,11 +85,15 @@ export default class cexed extends Component {
               hardware wallet, this is called "cold" storage, because your keys
               are isolated and offline, making them less vulnerable to hacking
               and other online threats.
-            </div>
+            </ContentCard>
           </Row>
           <Row>
-            <div className="educational-headers">Self-Custody</div>
-            <div className="educational-content">
+            <ContentCard
+              className="content-card educational-card"
+              eyebrow="Ownership"
+              icon="🛡️"
+              title="Self-Custody"
+            >
               Self custody means taking control of your own crypto assets, and
               storing them in a secure and private manner. This can involve
               using a cold storage wallet, such as a hardware wallet or a paper
@@ -101,11 +116,15 @@ export default class cexed extends Component {
               fewer features and services than CEXs. In addition, self custody
               requires a certain level of knowledge and understanding of
               cryptography, wallets, and blockchain technology.
-            </div>
+            </ContentCard>
           </Row>
           <Row>
-            <div className="educational-headers">Best Practices</div>
-            <div className="educational-content">
+            <ContentCard
+              className="content-card educational-card"
+              eyebrow="Checklist"
+              icon="✅"
+              title="Best Practices"
+            >
               When you first set up a crypto wallet, you will generate a
               recovery phrase (also referred to as a “seed phrase”), which is a
               string of 12 or 24 simple words. The seed phrase is the master
@@ -121,7 +140,7 @@ export default class cexed extends Component {
               and keeping copies in more than one safe location is a solid
               approach. <br /> <br />
               Most importantly:
-              <list>
+              <ul>
                 <li>Never share your seed phrase with anyone.</li>
                 <li>Always keep your seed phrase in a secure location.</li>
                 <li>Never keep a copy of your seed phrase on your person.</li>
@@ -131,12 +150,12 @@ export default class cexed extends Component {
                   than the one you use to store your assets.
                 </li>
                 <li>Do not store assets on a CEX longer than neccesary.</li>
-              </list>{' '}
+              </ul>{' '}
               <br />
               Without a doubt, self-custody can be daunting, but by following
               these best practices, you can take full responsibility over your
               finances.
-            </div>
+            </ContentCard>
           </Row>
         </Container>
       </div>

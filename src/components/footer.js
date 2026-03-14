@@ -17,7 +17,7 @@ export default function App() {
             rel="noreferrer"
             className="alternatives-links"
           >
-            0xc0le.ETH
+            0xcole.ETH
           </a>
         </div>
         <div>
