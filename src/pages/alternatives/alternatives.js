@@ -52,11 +52,7 @@ export default class alternatives extends Component {
             potentially vulnerable online devices, such as computers or
             smartphones. Some common hardware wallets include: <br />
             <br />
-<<<<<<< HEAD
             <ul className="alternatives-list">
-=======
-            <ul className="alternatives-list">
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
               <li>
                 <a
                   href="https://www.ledger.com/"
@@ -87,11 +83,7 @@ export default class alternatives extends Component {
                   Gridplus
                 </a>
               </li>
-<<<<<<< HEAD
             </ul>
-=======
-            </ul>
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
             <br />
             By using a hardware wallet, you can protect your assets from hacking
             and other online threats. It is generally considered a best practice
@@ -114,11 +106,7 @@ export default class alternatives extends Component {
             hardware wallets. Some popular software wallet options include:
             <br />
             <br />
-<<<<<<< HEAD
             <ul className="alternatives-list">
-=======
-            <ul className="alternatives-list">
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
               <li>
                 <a
                   href="https://rainbow.me/"
@@ -149,11 +137,7 @@ export default class alternatives extends Component {
                   Metamask
                 </a>
               </li>
-<<<<<<< HEAD
             </ul>
-=======
-            </ul>
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
             <br />
             While software wallets are more convenient than hardware wallets,
             they are also more vulnerable to online threats, such as hacking and
@@ -178,11 +162,7 @@ export default class alternatives extends Component {
             popular decentralized exchange options include:
             <br />
             <br />
-<<<<<<< HEAD
             <ul className="alternatives-list">
-=======
-            <ul className="alternatives-list">
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
               <li>
                 <a
                   href="https://app.uniswap.org/#/swap"
@@ -213,11 +193,7 @@ export default class alternatives extends Component {
                   Curve
                 </a>
               </li>
-<<<<<<< HEAD
             </ul>
-=======
-            </ul>
->>>>>>> codex/replace-div-blocks-with-contentcard-component-x9oy3l
             <br />
             By using a decentralized exchange, you can trade your digital assets
             without having to trust a third party with your funds. Decentralized
