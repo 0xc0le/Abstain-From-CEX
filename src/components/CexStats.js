@@ -1,50 +1,25 @@
 import React from 'react';
+import { useCex } from '../contexts/CexContext';
 import formatCurrency from '../utils/currency';
 import './cexstats.css';
 
-class CexStats extends React.Component {
-  // Constructor
-  constructor(props) {
-    super(props);
+function CexStats() {
+  const { cexTvl, loading } = useCex();
 
-    this.state = {
-      items: [],
-      DataisLoaded: false
-    };
-  }
-
-  componentDidMount() {
-    fetch('https://api.llama.fi/protocols')
-      .then((res) => res.json())
-      .then((json) => {
-        this.setState({
-          items: json,
-          DataisLoaded: true
-        });
-      });
-  }
-
-  render() {
-    const { DataisLoaded, items } = this.state;
-    if (!DataisLoaded) {
-      return (
-        <div className="cexstats-skeleton" aria-busy="true">
-          <div className="skeleton-number" />
-          <div className="skeleton-line" />
-        </div>
-      );
-    }
-
-    const cexs = items.filter((item) => item.category === 'CEX');
-
-    const total = cexs.map((item) => item.tvl).reduce((a, b) => a + b, 0);
-
+  if (loading) {
     return (
-      <div>
-        <h1>{formatCurrency(total)}</h1>
+      <div className="cexstats-skeleton" aria-busy="true">
+        <div className="skeleton-number" />
+        <div className="skeleton-line" />
       </div>
     );
   }
+
+  return (
+    <div>
+      <h1>{formatCurrency(cexTvl)}</h1>
+    </div>
+  );
 }
 
 export default CexStats;

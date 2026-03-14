@@ -2,8 +2,10 @@
   font-size: medium;
   padding: 10px;
   padding-bottom: 50px;
-  background-color: #1f2833;
-  color: white;
+  background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-elevated) 100%);
+  color: var(--text-primary);
+  border-radius: 0 0 16px 16px;
+  box-shadow: var(--shadow-lg);
 }
 
 .cexed-page {
@@ -49,10 +51,10 @@
   margin-inline: auto;
   height: auto;
   text-align: center;
-  background: #263241;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 14px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
   padding: 24px;
 }
 
@@ -72,7 +74,7 @@
   font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #9ab0c3;
+  color: var(--text-secondary);
   font-weight: 600;
 }
 

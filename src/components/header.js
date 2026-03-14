@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
 import './headerfooter.css';
 import Container from 'react-bootstrap/Container';

@@ -8,11 +8,11 @@
   font-size: calc(7px + 0.55vmin);
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: rgba(251, 251, 242, 0.9);
+  color: var(--text-primary);
   border-radius: 999px;
   border: 1px solid transparent;
-  transition: color 220ms ease, background-color 220ms ease, transform 220ms ease,
-    border-color 220ms ease;
+  transition: color 220ms ease, background-color 220ms ease,
+    transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
 }
 
 .NavLinks::after {
@@ -23,7 +23,7 @@
   bottom: 0.25rem;
   height: 2px;
   border-radius: 999px;
-  background-color: #9c7506;
+  background-color: var(--accent-primary);
   transform: scaleX(0.45);
   transform-origin: center;
   opacity: 0;
@@ -32,36 +32,39 @@
 
 .NavLinks:hover,
 .NavLinks:focus-visible {
-  color: #fbfbf2;
-  background-color: rgba(156, 117, 6, 0.18);
-  border-color: rgba(156, 117, 6, 0.35);
+  color: var(--text-primary);
+  background-color: rgba(212, 175, 55, 0.1);
+  border-color: rgba(212, 175, 55, 0.2);
   transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .site-navbar {
   position: sticky;
   top: 0;
   z-index: 1020;
-  background: rgba(31, 40, 51, 0.75);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(135deg, rgba(26, 29, 35, 0.85) 0%, rgba(32, 37, 46, 0.85) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
   display: flex;
   justify-content: space-between;
   padding: 0.7rem 2rem;
 }
 
 .navbar-brand {
-  color: #9c7506;
+  color: var(--accent-primary);
   font-weight: 600;
   letter-spacing: 0.05em;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
-  color: #fbfbf2;
-  background-color: rgba(156, 117, 6, 0.26);
-  border-color: rgba(156, 117, 6, 0.42);
+  color: var(--text-primary);
+  background-color: rgba(212, 175, 55, 0.15);
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: var(--shadow-sm);
 }
 
 .navbar-nav .nav-link.active::after,
