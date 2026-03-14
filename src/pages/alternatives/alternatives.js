@@ -52,7 +52,7 @@ export default class alternatives extends Component {
             potentially vulnerable online devices, such as computers or
             smartphones. Some common hardware wallets include: <br />
             <br />
-            <list className="alternatives-list">
+            <ul className="alternatives-list">
               <li>
                 <a
                   href="https://www.ledger.com/"
@@ -83,7 +83,7 @@ export default class alternatives extends Component {
                   Gridplus
                 </a>
               </li>
-            </list>
+            </ul>
             <br />
             By using a hardware wallet, you can protect your assets from hacking
             and other online threats. It is generally considered a best practice
@@ -106,7 +106,7 @@ export default class alternatives extends Component {
             hardware wallets. Some popular software wallet options include:
             <br />
             <br />
-            <list className="alternatives-list">
+            <ul className="alternatives-list">
               <li>
                 <a
                   href="https://rainbow.me/"
@@ -137,7 +137,7 @@ export default class alternatives extends Component {
                   Metamask
                 </a>
               </li>
-            </list>
+            </ul>
             <br />
             While software wallets are more convenient than hardware wallets,
             they are also more vulnerable to online threats, such as hacking and
@@ -162,7 +162,7 @@ export default class alternatives extends Component {
             popular decentralized exchange options include:
             <br />
             <br />
-            <list className="alternatives-list">
+            <ul className="alternatives-list">
               <li>
                 <a
                   href="https://app.uniswap.org/#/swap"
@@ -193,7 +193,7 @@ export default class alternatives extends Component {
                   Curve
                 </a>
               </li>
-            </list>
+            </ul>
             <br />
             By using a decentralized exchange, you can trade your digital assets
             without having to trust a third party with your funds. Decentralized
