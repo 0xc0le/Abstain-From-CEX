@@ -138,7 +138,7 @@ export default class cexed extends Component {
               and keeping copies in more than one safe location is a solid
               approach. <br /> <br />
               Most importantly:
-              <list>
+              <ul>
                 <li>Never share your seed phrase with anyone.</li>
                 <li>Always keep your seed phrase in a secure location.</li>
                 <li>Never keep a copy of your seed phrase on your person.</li>
@@ -148,7 +148,7 @@ export default class cexed extends Component {
                   than the one you use to store your assets.
                 </li>
                 <li>Do not store assets on a CEX longer than neccesary.</li>
-              </list>{' '}
+              </ul>{' '}
               <br />
               Without a doubt, self-custody can be daunting, but by following
               these best practices, you can take full responsibility over your
